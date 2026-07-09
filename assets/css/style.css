@@ -109,3 +109,60 @@ section h2 {
     padding-bottom:5px;
 
 }
+.cv-entry {
+
+    display:grid;
+
+    grid-template-columns:150px 1fr;
+
+    column-gap:30px;
+
+    margin-bottom:35px;
+
+}
+
+
+.cv-date {
+
+    text-align:right;
+
+    font-size:14px;
+
+    color:#666;
+
+    line-height:1.4;
+
+}
+
+
+.cv-details h3 {
+
+    margin:0 0 8px 0;
+
+    font-size:17px;
+
+    font-weight:bold;
+
+}
+
+
+.institution {
+
+    margin:3px 0;
+
+    font-size:15px;
+
+}
+
+
+.location {
+
+    margin-top:5px;
+
+    color:#666;
+
+    font-style:italic;
+
+    font-size:14px;
+
+}
