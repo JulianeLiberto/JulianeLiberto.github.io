@@ -178,3 +178,37 @@ section h2 {
     line-height:1.4;
 
 }
+
+.cv-subheading {
+
+    font-size:15px;
+
+    font-style:italic;
+
+    font-weight:normal;
+
+    margin-top:25px;
+
+    margin-bottom:10px;
+
+}
+
+
+.publication-list {
+
+    font-size:14px;
+
+    line-height:1.5;
+
+    margin-top:0;
+
+    padding-left:25px;
+
+}
+
+
+.publication-list li {
+
+    margin-bottom:10px;
+
+}
