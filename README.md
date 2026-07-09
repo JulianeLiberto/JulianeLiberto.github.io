@@ -222,104 +222,103 @@ Investigated microbial community structures associated with coral reef environme
 **Honors and Awards**
 ---
 
-
-Apr 2025
-Graduate Student Association Travel Award ($500) to support travel for presenting high-impact research at a national scientific conference. Highly competitive award in recognition of academic merit and research excellence
-Issued by the 2024-2025 JHU SOM GSA Finance Committee  
-
-
-Oct 2024
-Graduate Student Association Graduate Student Spotlight Award in recognition of outstanding academic excellence and/or community-based accomplishments
-Issued by the 2024-2025 JHU SOM Graduate Student Council  
+Apr 2025\
+**Graduate Student Association Travel Award ($500)** to support travel for presenting high-impact research at a national scientific conference. Highly competitive award in recognition of academic merit and research excellence\
+*Issued by the 2024-2025 JHU SOM GSA Finance Committee*  
 
 
-June 2024
-Graduate Student Association President’s Award for outstanding commitment to the graduate student body and continued dedication to further the mission of the GSA at JHU
-Issued by Rodney Eric Williams 2023-2024 JHU SOM GSA President
+Oct 2024\
+**Graduate Student Association Graduate Student Spotlight Award** in recognition of outstanding academic excellence and/or community-based accomplishments\
+*Issued by the 2024-2025 JHU SOM Graduate Student Council*  
 
 
-Apr 2024
-SKCCC Trainee Research Day, Honorable Mention for a well presented and thoughtfully designed scientific poster in the Clinical/Preclinical Category
-Issued by the JHU Sidney Kimmel Comprehensive Cancer Center
+June 2024\
+**Graduate Student Association President’s Award** for outstanding commitment to the graduate student body and continued dedication to further the mission of the GSA at JHU\
+*Issued by Rodney Eric Williams 2023-2024 JHU SOM GSA President*
 
 
-June 2022
-MDPI’s 2021 Best Paper Award in “Medicine & Pharmacology, selected in the Journal of Clinical Medicine for best original research article
-Issued by the Multidisciplinary Digital Publishing Institute
+Apr 2024\
+**SKCCC Trainee Research Day, Honorable Mention** for a well presented and thoughtfully designed scientific poster in the Clinical/Preclinical Category\
+*Issued by the JHU Sidney Kimmel Comprehensive Cancer Center*
 
 
-June 2017
-UCSF School of Medicine SPOT Award ($1000) for Outstanding “In the Moment” workplace contributions
-Issued by the University of California San Francisco, Department of Surgery
+June 2022\
+**MDPI’s 2021 Best Paper Award in “Medicine & Pharmacology**, selected in the Journal of Clinical Medicine for best original research article\
+*Issued by the Multidisciplinary Digital Publishing Institute*
 
 
-Dec 2014
-Honorable Mention Ford Foundation Predoctoral Fellowship Program
-Issued by the Ford Foundation Fellowships Office of the National Academies of Sciences, Engineering and Medicine
+June 2017\
+**UCSF School of Medicine SPOT Award ($1000)** for outstanding “In the Moment” workplace contributions\
+*Issued by the University of California San Francisco, Department of Surgery*
 
 
-May 2013
-UC Merced’s Write 100 Win $100 Essay Winner
-Issued by the University of California Students First Center 
+Dec 2014\
+**Honorable Mention Ford Foundation Predoctoral Fellowship Program**\
+*Issued by the Ford Foundation Fellowships Office of the National Academies of Sciences, Engineering and Medicine*
 
 
-Dec 2012
-UC Merced’s Dean's Honor List, awarded for semester GPA above 3.5
-Issued by the University of California Merced
+May 2013\
+**UC Merced’s Write 100 Win $100 Essay Winner**\
+*Issued by the University of California Students First Center* 
 
 
-Oct 2012
-The Floyd E. McDonald Scholarship ($1000) to recognize and encourage students to pursue studies to prepare them for a career in the forensic science profession
-Issued by the Southwestern Association of Forensic Scientists
+Dec 2012\
+**UC Merced’s Dean's Honor List**, awarded for semester GPA above 3.5\
+*Issued by the University of California Merced*
 
 
-Aug 2010 
-AP Scholar Award in recognition of exemplary college-level achievement on Advanced Placement Program Exams
-Issued by The College Board 
+Oct 2012\
+**The Floyd E. McDonald Scholarship ($1000)** to recognize and encourage students to pursue studies to prepare them for a career in the forensic science profession\
+*Issued by the Southwestern Association of Forensic Scientists*
 
 
-May 2010
-The following 15 scholarships totaling $23,000 were awarded based on outstanding scholarly achievement, financial need, and/or strong community engagement.
-* The Ralph Hale Ruppert Memorial Scholarship Award, $3000
+Aug 2010\ 
+**AP Scholar Award** in recognition of exemplary college-level achievement on Advanced Placement Program Exams\
+*Issued by The College Board* 
+
+
+May 2010\
+**The following 15 scholarships totaling $23,000** were awarded based on outstanding scholarly achievement, financial need, and/or strong community engagement.\
+* The Ralph Hale Ruppert Memorial Scholarship Award, $3000\
 *Issued by the California Scottish Rite Foundation*
-* Alexander H. Kuhnel Mensa Scholarship Award (Region 09), $500
+* Alexander H. Kuhnel Mensa Scholarship Award (Region 09), $500\
 *Issued by the Mensa Education and Research Foundation*
-* Navmar Applied Sciences Corporation Scholarship Award, $1000
+* Navmar Applied Sciences Corporation Scholarship Award, $1000\
 *Issued by the Navmar Applied Sciences Corporation*
-* Dupont Challenge Science Essay Corporation, 3rd Place Award, $1000
+* Dupont Challenge Science Essay Corporation, 3rd Place Award, $1000\
 *Issued by the DuPont de Nemours, Inc.*
-* Change A Life Foundation Scholarship Award, $5000
+* Change A Life Foundation Scholarship Award, $5000\
 *Issued by the Change A Life Foundation*
-* Americanism and Patriotism Special Scholarship, 1st Place Award $1000
+* Americanism and Patriotism Special Scholarship, 1st Place Award $1000\
 *Issued by the Fleet Reserve Association*
-* The Rotary Club of Escondido Service Above Self Scholarship Award, $1000
+* The Rotary Club of Escondido Service Above Self Scholarship Award, $1000\
 *Issued by the Escondido Rotary Foundation*
-* The George S. And Stella M. Knight Scholarship Award, Chapter Winner $2500
+* The George S. And Stella M. Knight Scholarship Award, Chapter Winner $2500\
 *Issued by the National Society of the Sons of the American Revolution*
-* The Isaac Sacks Memorial Athletic Scholarship, $1000
+* The Isaac Sacks Memorial Athletic Scholarship, $1000\
 *Issued by the Isaac Sacks Memorial Foundation*
-* The Jessie Klicka Foundation Scholarship Award, $500
+* The Jessie Klicka Foundation Scholarship Award, $500\
 *Issued by the Jessie Klicka Foundation*
-* The North County Italian Association Scholarship Award, $500
+* The North County Italian Association Scholarship Award, $500\
 *Issued by the San Diego North County Italian Association*
-* The Kiwanis Club of Escondido Scholarship Award, $2000
+* The Kiwanis Club of Escondido Scholarship Award, $2000\
 *Issued by the San Diego Foundation*
-* 2K4Kids Scholarship Award, $2000
+* 2K4Kids Scholarship Award, $2000\
 *Issued by the Kari and Keira Lyn Parker Foundation*
-* San Pasqual High School Parents Club Scholarship, $500
+* San Pasqual High School Parents Club Scholarship, $500\
 *Issued by San Pasqual High School Parents Club*
-* Southern California Mothers of Multiples Club Scholarship Award, $1500
+* Southern California Mothers of Multiples Club Scholarship Award, $1500\
 *Issued by the Southern California Mothers of Multiples Club Inc.*
 
-Apr 2008
-Who’s Who Registry of Academic Excellence Publication Award for recognition as an honored student in the 2007-2008 National Edition of Who’s Who Registry of Academic Excellence
-Issued by Who’s Who Registry of Academic Excellence
+Apr 2008\
+**Who’s Who Registry of Academic Excellence Publication Award** for recognition as an honored student in the 2007-2008 National Edition of Who’s Who Registry of Academic Excellence\
+*Issued by Who’s Who Registry of Academic Excellence*
 
 
 
 
-Leadership Activities
-
+**Leadership Activities**
+---
 
 July 2022 – June 2024
 Johns Hopkins University School of Medicine Graduate Student Association, Director of Media and Public Relations (2023-2024) and Director of Administration (2022-2023)
@@ -339,8 +338,8 @@ Supported students physical, mental, emotional, and professional well-being thro
 
 
 
-Mentoring Activities
-
+**Mentoring Activities**
+---
 
 Johns Hopkins University Undergraduate Research Associates
 Mentored 4 JHU undergraduate students and aided each in achieving their personal research development goals through (1) providing direct supervision and training on assigned research projects, (2) advising on problem-solving approaches to troubleshoot laboratory assays, and (3) supporting improved scientific communication through data and journal presentations as well as providing guidance with writing undergraduate grant applications. Their contributions are expected to lead to co-authorship on forthcoming published research and presented abstracts.
@@ -390,8 +389,8 @@ Roel Marania, current graduate from San Jose State University
 
 
 
-Teaching Activities
-
+**Teaching Activities**
+---
 
 
 
@@ -412,34 +411,34 @@ Served three consecutive Fall terms (Aug to Oct) teaching Principles of Immunolo
 
 
 
-Professional Memberships
+**Professional Memberships**
+---
 
-
-April 2025 – Present
+April 2025 – Present\
 American Society of Clinical Oncology (ASCO) Member
 
 
-March 2025 – Present
+March 2025 – Present\
 American Association for Cancer Research (AACR) Associate Member
 
 
-Sept 2013 – Present
+Sept 2013 – Present\
 PADI/SCUBA Open Water Diver Level 2 certification
 
 
-Sept 2013 – Present
+Sept 2013 – Present\
 PADI Project AWARE Foundation
 
 
-May 2010 – Present
+May 2010 – Present\
 National Honors Society
 
 
-May 2010 – Present
+May 2010 – Present\
 California Scholarship Federation Lifetime Seal Bearer
 
 
-May 2010 – Present
+May 2010 – Present\
 The National Society of the Daughters of the American Revolution
 
 
