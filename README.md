@@ -1,8 +1,8 @@
-# <p align="center"> Curriculum Vitae </p>
-## **<p align="center"> Juliane M. Liberto, Ph.D. </p>**
+# Curriculum Vitae
+## **Juliane M. Liberto, Ph.D.**
 
-*<p align="center"> Baltimore, MD | Cell: (760) 975-9020 | Email: Juliane.Liberto@gmail.com\
-LinkedIn: [in/JulianeLiberto](https://www.linkedin.com/in/julianeliberto/) | ORCID: [0000-0003-1927-5058](https://orcid.org/0000-0003-1927-5058) | Google Scholar: [Juliane Liberto](https://scholar.google.com/citations?user=32h7SLsAAAAJ&hl=en)</p>*
+*Baltimore, MD , Cell: (760) 975-9020 , Email: Juliane.Liberto@gmail.com\
+LinkedIn: [in/JulianeLiberto](https://www.linkedin.com/in/julianeliberto/) , ORCID: [0000-0003-1927-5058](https://orcid.org/0000-0003-1927-5058) , Google Scholar: [Juliane Liberto](https://scholar.google.com/citations?user=32h7SLsAAAAJ&hl=en)*
 
 *Updated: July 2026*
 
