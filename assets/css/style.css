@@ -211,6 +211,25 @@ section h2 {
 
 .publication-list li {
 
+    margin-bottom:10px;
+
+}
+
+.cv-list {
+
+    font-size:14px;
+
+    line-height:1.5;
+
+    margin-top:0;
+
+    padding-left:25px;
+
+}
+
+
+.cv-list li {
+
     margin-bottom:6px;
 
 }
