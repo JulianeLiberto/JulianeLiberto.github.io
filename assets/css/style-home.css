@@ -92,6 +92,8 @@
 }
 
 
+
+/* PUBLICATIONS */
 .publication-list {
     font-size: 25px;
     line-height: 1.5;
@@ -102,3 +104,11 @@
     margin-bottom: 1.5em;
 }
 
+.publication-list a {
+    color: #1b4f72;
+    text-decoration: none;
+}
+
+.publication-list a:hover {
+    text-decoration: underline;
+}
