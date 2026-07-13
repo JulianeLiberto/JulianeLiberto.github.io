@@ -1,1 +1,57 @@
+/* 1. Global Reset to ensure consistent layout across browsers */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
 
+/* 2. Main Navbar Styling */
+.navbar {
+  display: flex;
+  justify-content: space-between; /* Pushes logo left and links right */
+  align-items: center;            /* Centers items vertically */
+  background-color: #333;         /* Dark background */
+  padding: 15px 30px;             /* Spacing inside the bar */
+  position: sticky;               /* Keeps bar fixed at the top while scrolling */
+  top: 0;
+  z-index: 1000;
+}
+
+/* 3. Logo Customization */
+.logo {
+  color: #fff;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* 4. Link Container Styling */
+.nav-links {
+  display: flex;
+  list-style: none; /* Removes list bullet points */
+}
+
+/* 5. Individual Link Customization */
+.nav-links li {
+  margin-left: 20px; /* Spaces out links from one another */
+}
+
+.nav-links a {
+  color: #f2f2f2;
+  text-decoration: none; /* Removes underline from links */
+  font-size: 16px;
+  padding: 8px 12px;
+  transition: all 0.3s ease; /* Smooth hover transition effect */
+  border-radius: 4px;
+}
+
+/* 6. Hover & Active States */
+.nav-links a:hover {
+  background-color: #555;
+  color: #fff;
+}
+
+.nav-links a.active {
+  background-color: #04AA6D; /* Distinct color for active/current page */
+  color: white;
+}
