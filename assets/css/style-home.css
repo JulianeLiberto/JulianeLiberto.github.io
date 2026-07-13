@@ -57,7 +57,7 @@
 }
 
 
-/* 7. Photo */
+/* 7. HERO */
 .hero{
   display: flex;
   margin:40px auto;
@@ -76,8 +76,16 @@
   padding: 60px;
 }
 
+.hero-image {
+    width: 280px;
+    height: 280px;
+    background-color: #d9d9d9;
+    border-radius: 50%;
+}
 
-
+.hero-text {
+    
+}
 
 
 
