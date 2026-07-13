@@ -52,6 +52,6 @@
 }
 
 .nav-links a.active {
-  background-color: #04AA6D; /* Distinct color for active/current page */
+  background-color: #048CAA; /* Distinct color for active/current page */
   color: white;
 }
