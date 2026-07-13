@@ -55,3 +55,27 @@
   background-color: #048CAA; /* Distinct color for active/current page */
   color: white;
 }
+
+/* 6. Home Container */
+.container {
+    width:8.5in;
+    min-height:11in;
+    margin:40px auto;
+    background:white;
+    padding:0.7in;
+    box-sizing:border-box;
+    box-shadow:0 0 15px rgba(0,0,0,0.12);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
