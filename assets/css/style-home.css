@@ -67,16 +67,9 @@
   gap: 60px;  
 }
 
-
-
 .container {
-    width:8.5in;
-    min-height:11in;
-    margin:40px auto;
-    background:white;
-    padding:0.7in;
-    box-sizing:border-box;
-    box-shadow:0 0 15px rgba(0,0,0,0.12);
+  max-width:1200px;
+  margin: 0 auto;
 }
 
 
