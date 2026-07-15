@@ -141,7 +141,6 @@ section h3 {
 }
 
 .publication-links a {
-  color: #f2f2f2;
   text-decoration: none; /* Removes underline from links */
   font-size: 16px;
   padding: 8px 12px;
@@ -160,7 +159,6 @@ section h3 {
 }
 
 .publication-list a {
-    color: #1b4f72;
     text-decoration: none;
 }
 
