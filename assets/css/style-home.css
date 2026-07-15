@@ -1,4 +1,4 @@
-/* 1. Global Reset to ensure consistent layout across browsers */
+/* MAIN FOR BROWSER CONSISTENCY */
 * {
   margin: 0;
   padding: 0;
@@ -6,7 +6,7 @@
   font-family: sans-serif;
 }
 
-/* 2. Main Navbar Styling */
+/* NAVIGATION */
 .navbar {
   display: flex;
   justify-content: space-between; /* Pushes logo left and links right */
@@ -18,20 +18,17 @@
   z-index: 1000;
 }
 
-/* 3. Logo Customization */
 .logo {
   color: #fff;
   font-size: 24px;
   font-weight: bold;
 }
 
-/* 4. Link Container Styling */
 .nav-links {
   display: flex;
   list-style: none; /* Removes list bullet points */
 }
 
-/* 5. Individual Link Customization */
 .nav-links li {
   margin-left: 20px; /* Spaces out links from one another */
 }
@@ -45,7 +42,6 @@
   border-radius: 4px;
 }
 
-/* 6. Hover & Active States */
 .nav-links a:hover {
   background-color: #555;
   color: #fff;
@@ -56,8 +52,30 @@
   color: white;
 }
 
+/* PAGE SECTIONS */
+section {
+    margin-top: 35px;
+}
 
-/* 7. HERO */
+section h1 {
+    font-size: 26px;
+    text-transform: uppercase;
+    border-bottom: 1px solid #163A5F;
+    padding-bottom: 5px;
+}
+section h2 {
+    font-size: 20px;
+    text-transform: uppercase;
+    padding-bottom: 5px;
+}
+section h3 {
+    font-size: 16px;
+    text-transform: uppercase;
+    padding-bottom: 5px;
+}
+
+
+/* HERO */
 .hero{
   margin:40px auto;
   align-items: center;
@@ -97,11 +115,13 @@
     border: 3px solid orange;
 }
 
+/* ABOUT ME */
 
+/* RESEARCH */
 
 /* PUBLICATIONS */
 .publication-list {
-    font-size: 25px;
+    font-size: 18px;
     line-height: 1.5;
     padding-left: 40px;
 }
@@ -118,3 +138,5 @@
 .publication-list a:hover {
     text-decoration: underline;
 }
+
+/* CONTACT ME */
