@@ -120,6 +120,24 @@ section h3 {
 /* RESEARCH */
 
 /* PUBLICATIONS */
+.publication-links {
+  display: flex;
+  list-style: none; /* Removes list bullet points */
+}
+
+.publication-links li {
+  margin-left: 20px; /* Spaces out links from one another */
+}
+
+.publication-links a {
+  color: #f2f2f2;
+  text-decoration: none; /* Removes underline from links */
+  font-size: 16px;
+  padding: 8px 12px;
+  transition: all 0.3s ease; /* Smooth hover transition effect */
+  border-radius: 4px;
+}
+
 .publication-list {
     font-size: 18px;
     line-height: 1.5;
