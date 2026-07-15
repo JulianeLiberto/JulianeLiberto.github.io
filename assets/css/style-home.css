@@ -120,13 +120,18 @@ section h3 {
 /* RESEARCH */
 
 /* PUBLICATIONS */
+.publication-header {
+  display: flex;
+  list-style: none; /* Removes list bullet points */
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;  
+}
+
 .publication-links {
   display: flex;
   list-style: none; /* Removes list bullet points */
-}
-
-.publication-links li {
-  margin-left: 20px; /* Spaces out links from one another */
+  gap: 20px
 }
 
 .publication-links a {
