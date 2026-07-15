@@ -167,3 +167,49 @@ section h3 {
 }
 
 /* CONTACT ME */
+
+/* FOOTER */
+.footbar {
+  display: flex;
+  justify-content: space-between; /* Pushes logo left and links right */
+  align-items: center;            /* Centers items vertically */
+  background-color: #333;         /* Dark background */
+  padding: 15px 30px;             /* Spacing inside the bar */
+  position: sticky;               /* Keeps bar fixed at the top while scrolling */
+  top: 0;
+  z-index: 1000;
+}
+
+.foot-logo {
+  color: #fff;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.foot-links {
+  display: flex;
+  list-style: none; /* Removes list bullet points */
+}
+
+.foot-links li {
+  margin-left: 20px; /* Spaces out links from one another */
+}
+
+.foot-links a {
+  color: #f2f2f2;
+  text-decoration: none; /* Removes underline from links */
+  font-size: 16px;
+  padding: 8px 12px;
+  transition: all 0.3s ease; /* Smooth hover transition effect */
+  border-radius: 4px;
+}
+
+.foot-links a:hover {
+  background-color: #555;
+  color: #fff;
+}
+
+.foot-links a.active {
+  background-color: #048CAA; /* Distinct color for active/current page */
+  color: white;
+}
