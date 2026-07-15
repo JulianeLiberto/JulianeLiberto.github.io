@@ -181,7 +181,7 @@ section h3 {
 
 .foot-logo {
   color: #fff;
-  font-size: 24px;
+  font-size: 14px;
   font-weight: bold;
 }
 
@@ -206,9 +206,4 @@ section h3 {
 .foot-links a:hover {
   background-color: #555;
   color: #fff;
-}
-
-.foot-links a.active {
-  background-color: #048CAA; /* Distinct color for active/current page */
-  color: white;
 }
