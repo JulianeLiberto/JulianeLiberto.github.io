@@ -92,7 +92,7 @@ section h3 {
   border: 3px solid red;
 }
 
-.container hero{
+.hero-layout{
   display: flex;
   align-items: center;
   justify-content: space-between;
