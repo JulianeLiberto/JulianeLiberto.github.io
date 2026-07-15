@@ -92,7 +92,7 @@ section h3 {
   border: 3px solid red;
 }
 
-.hero-container {
+.container hero{
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -125,6 +125,7 @@ section h3 {
 /* RESEARCH */
 
 /* PUBLICATIONS */
+
 .publication-header {
   display: flex;
   list-style: none; /* Removes list bullet points */
