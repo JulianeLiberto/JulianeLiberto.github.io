@@ -6,6 +6,11 @@
   font-family: sans-serif;
 }
 
+:root {
+    --surface: #ffffff;
+    --border: #d9d9d9;
+}
+
 /* NAVIGATION */
 .navbar {
   display: flex;
