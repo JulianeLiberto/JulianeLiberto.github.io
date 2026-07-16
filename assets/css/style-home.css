@@ -7,11 +7,20 @@
 }
 
 :root {
-    --surface: #ffffff;
-    --border: #d9d9d9;
-    --accent: #2f6fed;
-    --text: #222222;
+    /* Colors */
     --background: #f8f9fa;
+    --surface: #ffffff;
+    --text: #1f2937;
+    --text-light: #6b7280;
+    --accent: #2563eb;
+    --border: #e5e7eb;
+
+    /* Shadows */
+    --shadow-sm: 0 2px 8px rgba(0,0,0,0.08);
+    --shadow-lg: 0 10px 30px rgba(0,0,0,0.12);
+
+    /* Border Radius */
+    --radius: 18px;
 }
 
 /* NAVIGATION */
@@ -156,6 +165,33 @@ section h3 {
 }
 
 /* RESEARCH */
+.research-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 4rem auto;
+}
+
+.research-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 18px;
+    padding: 2rem;
+    transition: all 0.3s ease;
+}
+
+.research-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 10px 30px rgba(0,0,0,.12);
+}
+
+.reserch-card h3{
+    display: flex;
+    align-items: center;
+    gap: .6rem;
+    margin-bottom: 1.2rem;
+}
 
 /* PUBLICATIONS */
 
