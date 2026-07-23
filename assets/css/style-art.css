@@ -23,6 +23,13 @@
     --radius: 18px;
 }
 
+body {
+  background-color: light-dark(#ffffff, #333333);
+  color: light-dark(#222222, #ffffff);
+}
+
+
+
 /* NAVIGATION */
 .navbar {
   display: flex;
