@@ -7,7 +7,8 @@
 }
 
 :root {
-    /* Colors */
+  color-scheme: light dark;  
+  /* Colors */
     --background: #333333;
     --surface: #ffffff;
     --text: #ffffff;
