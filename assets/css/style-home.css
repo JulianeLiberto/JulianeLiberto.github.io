@@ -130,7 +130,8 @@ section h3 {
 }
 
 .hero-text {
-    border: 3px solid orange;
+  flex: 1;
+  border: 3px solid orange;
 }
 
 /* ABOUT ME */
