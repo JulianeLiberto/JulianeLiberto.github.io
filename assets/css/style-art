@@ -64,10 +64,12 @@
   color: #fff;
 }
 
-.nav-links a.active {
-  background-color: #048CAA; /* Distinct color for active/current page */
-  color: white;
-}
+/* HERO */
+/* IMAGES */
+/* POETRY */
+/* PUBLICATIONS */
+/* AWARDS */
+
 
 
 
