@@ -78,44 +78,59 @@ html, body {
 /* HERO */
 /* IMAGES */
 
-/* The Photo & Caption Container Card */
-.photo-card {
-  margin: 20px auto;
-  max-width: 800px;            /* Limits the width so it looks good on desktop */
-  background-color: #121212;   /* Slightly lighter dark background to define the card */
-  border-radius: 8px;          /* Rounds the outer corners */
-  overflow: hidden;            /* Ensures the image conforms to the rounded corners */
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.7); /* Deep gallery-style shadow */
+/* The Grid Container */
+.gallery-grid {
+  display: grid;
+  /* Math breakdown: 
+     - 300px is the minimum width a photo can be before it drops to a new line.
+     - 1fr means take up 1 fraction of the remaining equal space. 
+  */
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;              /* The spacing between your cards */
+  padding: 40px;          /* Padding around the edge of the whole screen */
+  max-width: 1400px;      /* Prevents the grid from getting awkwardly wide on massive monitors */
+  margin: 0 auto;         /* Centers the entire grid on the screen */
 }
 
-/* Image Specifics */
+/* Individual Card Adjustments */
+.photo-card {
+  margin: 0;                   /* Reset previous margin; the grid gap handles spacing */
+  background-color: #121212;   
+  border-radius: 8px;          
+  overflow: hidden;            
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.7); 
+  
+  /* Flexbox makes sure the caption always stays pushed to the bottom 
+     if your images are slightly different aspect ratios */
+  display: flex;
+  flex-direction: column;
+}
+
 .photo-card img {
   width: 100%;
   height: auto;
   display: block;
+  object-fit: cover; /* Keeps things uniform if your images have varied heights */
 }
 
-/* The Caption Text Box Box */
 .photo-caption {
-  padding: 20px;               /* Generates clean breathing room around your text */
-  background-color: #121212;   /* Matches the card background */
+  padding: 20px;               
+  background-color: #121212;   
+  flex-grow: 1; /* Pushes caption to fill the card if image sizes vary */
 }
 
-/* Title of the photo */
 .photo-caption h3 {
-  margin: 0 0 6px 0;           /* Resets default margins and adds tiny spacing below */
-  font-size: 1.25rem;
-  color: #ffffff;              /* Crisp white color to make the title stand out */
-  font-weight: 500;
+  margin: 0 0 6px 0;           
+  font-size: 1.1rem;
+  color: #ffffff;              
 }
 
-/* Subtext, descriptions, or camera settings */
 .photo-caption p {
   margin: 0;
-  font-size: 0.9rem;
-  color: #8a8a8f;              /* Muted gray text so it doesn't distract from the photo */
-  line-height: 1.4;
+  font-size: 0.85rem;
+  color: #8a8a8f;              
 }
+
 
 /* POETRY */
 /* PUBLICATIONS */
