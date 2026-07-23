@@ -113,6 +113,7 @@ html, body {
   aspect-ratio: 1 / 1; /* Magic rule: forces a 1:1 square ratio */
   object-fit: cover;   /* Cuts off excess frame without distorting the picture */
   display: block;
+  cursor: pointer;
 }
 
 .photo-caption {
@@ -133,9 +134,9 @@ html, body {
 }
 
 /* ==========================================================================
-   THE LIGHTBOX STYLE (The Fullscreen Popup)
+   THE LIGHTBOX STYLE
    ========================================================================== */
-.lightbox {
+#lightbox {
   display: none; /* Hidden until clicked */
   position: fixed;
   z-index: 9999; /* Sits on top of absolutely everything else */
@@ -143,45 +144,19 @@ html, body {
   top: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(5, 5, 5, 0.95); /* Deep dark background with light blur */
+  background-color: rgba(0, 0, 0, 0.8);
   backdrop-filter: blur(10px);
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
 
-/* The full-sized uncropped image */
-.lightbox img {
-  max-width: 90%;
-  max-height: 80vh; /* Prevents image from stretching past screen height */
-  object-fit: contain; /* Ensures the FULL landscape/portrait frame is displayed */
-  border-radius: 4px;
-  box-shadow: 0 10px 50px rgba(0,0,0,0.8);
+#lightbox.active{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-/* The Caption below the fullscreen image */
-#lightbox-caption {
-  color: #ffffff;
-  margin-top: 15px;
-  font-size: 1.2rem;
-  text-align: center;
-}
-
-/* The Close Button */
-.close-btn {
-  position: absolute;
-  top: 20px;
-  right: 35px;
-  color: #8a8a8f;
-  font-size: 40px;
-  font-weight: bold;
-  cursor: pointer;
-  transition: color 0.2s ease;
-}
-
-.close-btn:hover {
-  color: #ffffff;
-}
 
 
 
