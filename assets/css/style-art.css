@@ -27,7 +27,7 @@
 html, body {
   margin: 0;
   padding: 0;
-  background-color: #333; 
+  background-color: #0a0a0a; 
   color: #e0e0e0;            
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
@@ -39,7 +39,7 @@ html, body {
   display: flex;
   justify-content: space-between; /* Pushes logo left and links right */
   align-items: center;            /* Centers items vertically */
-  background-color: #616161;         /* Dark background */
+  background-color: #333;         /* Dark background */
   padding: 15px 30px;             /* Spacing inside the bar */
   position: sticky;               /* Keeps bar fixed at the top while scrolling */
   top: 0;
