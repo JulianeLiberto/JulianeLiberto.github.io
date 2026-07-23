@@ -96,22 +96,25 @@
 
 <!-- JAVASCRIPT DO NOT DELETE BELOW THIS LINE -->
     <script>
-        function openLightbox(cardElement) {
-            // Get the image source and title from the clicked card
-            const imgSrc = cardElement.querySelector('img').src;
-            const imgTitle = cardElement.querySelector('h3').innerText;
-            // Target the lightbox elements
-            const lightbox = document.getElementById('lightbox');
-            const lightboxImg = document.getElementById('lightbox-img');
-            const lightboxCaption = document.getElementById('lightbox-caption');
-            // Inject the source and text, then show the overlay
-            lightboxImg.src = imgSrc;
-            lightboxCaption.innerText = imgTitle;
-            lightbox.style.display = 'flex';
-        }
-        function closeLightbox() {
-            // Hide the overlay when clicked anywhere on the screen
-            document.getElementById('lightbox').style.display = 'none';
-        }
+        const lightbox = document.createElement('div')
+        lightbox.id = 'lightbox'
+        document.body.appendChild(lightbox)
+
+        const images = document.querySelectorAll('img')
+        imgages.forEach(image => {
+            image.addEventListener('click', e => {
+                lightbox.classList.add('active')
+                const img = document.createElement('img')
+                img.src - img.src
+                while(lightbox.firstChild) {
+                    lightbox.removeChild(lightbox.firstChild)
+                }
+                lightbox.appendChild(img)
+            })
+        })
+        lightbox.addEventListener('click', e => {
+            if(e.target !== e.currentTarget) return
+            lightbox.classList.remove('active')
+        })
     </script>
 </body>
