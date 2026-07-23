@@ -33,7 +33,7 @@
         
        <div class="gallery-grid">
            <!-- Photo Card 1 -->
-           <figure class="photo-card">
+           <figure class="photo-card" onclick="openLightbox(this)">
                <img src="assets/images/Headshot.jpg" alt="Description">
                <figcaption class="photo-caption">
                    <h3>Desert Sunset</h3>
@@ -42,7 +42,7 @@
            </figure>
            
            <!-- Photo Card 2 -->
-           <figure class="photo-card">
+           <figure class="photo-card" onclick="openLightbox(this)">
                <img src="assets/images/Headshot.jpg" alt="Description">
                <figcaption class="photo-caption">
                    <h3>Desert Sunset</h3>
@@ -51,14 +51,20 @@
            </figure>
           
            <!-- Photo Card 3 -->
-           <figure class="photo-card">
+           <figure class="photo-card" onclick="openLightbox(this)">
                <img src="assets/images/Headshot.jpg" alt="Description">
                <figcaption class="photo-caption">
                    <h3>Desert Sunset</h3>
                    <p>50mm • f/2.8</p>
                </figcaption>
            </figure>
-       </div>        
+       </div>
+        
+        <div id="lightbox" class="lightbox" onclick="closeLightbox()">
+            <span class="close-btn">&times;</span>
+            <img id="lightbox-img" src="" alt="Full Screen Image">
+            <div id="lightbox-caption"></div>
+        </div>
     </section>
     
     <!-- POTTERY/SCULPTURE -->
@@ -82,4 +88,30 @@
     </section>
     
     <!-- FOOTER -->
+
+
+
+
+
+
+<!-- JAVASCRIPT DO NOT DELETE BELOW THIS LINE -->
+    <script>
+        function openLightbox(cardElement) {
+            // Get the image source and title from the clicked card
+            const imgSrc = cardElement.querySelector('img').src;
+            const imgTitle = cardElement.querySelector('h3').innerText;
+            // Target the lightbox elements
+            const lightbox = document.getElementById('lightbox');
+            const lightboxImg = document.getElementById('lightbox-img');
+            const lightboxCaption = document.getElementById('lightbox-caption');
+            // Inject the source and text, then show the overlay
+            lightboxImg.src = imgSrc;
+            lightboxCaption.innerText = imgTitle;
+            lightbox.style.display = 'flex';
+        }
+        function closeLightbox() {
+            // Hide the overlay when clicked anywhere on the screen
+            document.getElementById('lightbox').style.display = 'none';
+        }
+    </script>
 </body>
