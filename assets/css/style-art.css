@@ -133,13 +133,24 @@ html, body {
   color: #8a8a8f;              
 }
 
-/* ==========================================================================
-   THE LIGHTBOX STYLE
-   ========================================================================== */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 200px);
+  justify-content: center;
+  align-content: center;
+  grid-gap: 10px;
+  height: 100vh;
+}
+
+.grid img {
+  width: 200px;
+  height: 200px;
+  cursor: pointer;
+}
+
 #lightbox {
-  display: none; /* Hidden until clicked */
   position: fixed;
-  z-index: 9999; /* Sits on top of absolutely everything else */
+  z-index: 1000; /* Sits on top of absolutely everything else */
   left: 0;
   top: 0;
   width: 100%;
@@ -148,13 +159,18 @@ html, body {
   backdrop-filter: blur(10px);
   justify-content: center;
   align-items: center;
-  flex-direction: column;
+  display: none;
 }
 
 #lightbox.active{
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+#lightbox img {
+  max-width: 90%;
+  max-height: 90%;  
 }
 
 
