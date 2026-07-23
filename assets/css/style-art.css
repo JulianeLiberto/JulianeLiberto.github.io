@@ -78,61 +78,6 @@ html, body {
 /* HERO */
 /* IMAGES */
 
-}
-
-/* Grid Wrapper */
-.gallery-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 30px;              
-  padding: 40px;          
-  max-width: 1400px;      
-  margin: 0 auto;         
-}
-
-/* Photo Card Settings */
-.photo-card {
-  margin: 0;                   
-  background-color: #121212;   
-  border-radius: 8px;          
-  overflow: hidden;            
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.7); 
-  display: flex;
-  flex-direction: column;
-  cursor: pointer; /* Makes it obvious the card can be clicked */
-  transition: transform 0.2s ease;
-}
-
-.photo-card:hover {
-  transform: translateY(-5px); /* Subtle lift effect on hover */
-}
-
-/* Force Images to be Perfect Squares */
-.photo-card img {
-  width: 100%;
-  aspect-ratio: 1 / 1; /* Magic rule: forces a 1:1 square ratio */
-  object-fit: cover;   /* Cuts off excess frame without distorting the picture */
-  display: block;
-  cursor: pointer;
-}
-
-.photo-caption {
-  padding: 20px;               
-  background-color: #121212;   
-}
-
-.photo-caption h3 {
-  margin: 0 0 6px 0;           
-  font-size: 1.1rem;
-  color: #ffffff;              
-}
-
-.photo-caption p {
-  margin: 0;
-  font-size: 0.85rem;
-  color: #8a8a8f;              
-}
-
 .grid {
   display: grid;
   grid-template-columns: repeat(3, 200px);
@@ -169,12 +114,9 @@ html, body {
 }
 
 #lightbox img {
-  max-width: 90%;
-  max-height: 90%;  
+  max-width: 80%;
+  max-height: 80%;  
 }
-
-
-
 
 /* POETRY */
 /* PUBLICATIONS */
