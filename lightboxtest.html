@@ -7,10 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Juliane M. Liberto | My Art</title>
     <link rel="stylesheet" href="assets/css/style-art.css">
+    <script defer src="assets/java/script-art.js"></script>
 </head>
 
 <body>
-<div class = "gallery-grid">
+<div class = "grid">
   <img src = "assets/images/Headshot.jpg">
   <img src = "assets/images/Headshot.jpg">
   <img src = "assets/images/Headshot.jpg">
@@ -23,28 +24,4 @@
   <img src = "assets/images/Headshot.jpg">  
 </div>
 
-
-  <!-- JAVASCRIPT DO NOT DELETE BELOW THIS LINE -->
-    <script>
-        const lightbox = document.createElement('div')
-        lightbox.id = 'lightbox'
-        document.body.appendChild(lightbox)
-
-        const images = document.querySelectorAll('img')
-        imgages.forEach(image => {
-            image.addEventListener('click', e => {
-                lightbox.classList.add('active')
-                const img = document.createElement('img')
-                img.src - img.src
-                while(lightbox.firstChild) {
-                    lightbox.removeChild(lightbox.firstChild)
-                }
-                lightbox.appendChild(img)
-            })
-        })
-        lightbox.addEventListener('click', e => {
-            if(e.target !== e.currentTarget) return
-            lightbox.classList.remove('active')
-        })
-    </script>
 </body>
