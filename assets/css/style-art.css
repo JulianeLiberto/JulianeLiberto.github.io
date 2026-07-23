@@ -8,9 +8,9 @@
 
 :root {
     /* Colors */
-    --background: #f8f9fa;
+    --background: #333333;
     --surface: #ffffff;
-    --text: #1f2937;
+    --text: #ffffff;
     --text-light: #6b7280;
     --accent: #2563eb;
     --border: #e5e7eb;
