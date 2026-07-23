@@ -117,11 +117,12 @@ section h3 {
     width: 380px;
     height: 380px;
     background: #d9d9d9;
-    border-radius: 12px;
+    border-radius: 50%;
+    overflow: hidden; 
     display: flex;
     justify-content: center;
     align-items: center;
-  border: 3px solid green;
+    border: 3px solid green;
 }
 
 .hero-image img {
