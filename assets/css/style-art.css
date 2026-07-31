@@ -119,6 +119,34 @@ html, body {
 }
 
 /* POETRY */
+.poetry-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 4rem auto;
+}
+
+.poetry-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 18px;
+    padding: 2rem;
+    transition: all 0.3s ease;
+}
+
+.poetry-card h3{
+    display: flex;
+    align-items: center;
+    gap: .6rem;
+    margin-bottom: 1.4rem;
+
+.poetry-card p{
+    display: flex;
+    align-items: center;
+    gap: .6rem;
+    margin-bottom: 1.2rem;
+
 /* PUBLICATIONS */
 /* AWARDS */
 
