@@ -9,9 +9,10 @@
 :root { 
   /* Colors */
     --background: #333333;
-    --surface: #ffffff;
+    --surface: #f3f4f6;
     --text: #ffffff;
     --text-light: #6b7280;
+    --text-dark: #1f2937;
     --accent: #2563eb;
     --border: #e5e7eb;
 
@@ -129,6 +130,7 @@ html, body {
 
 .poetry-card {
     background: var(--surface);
+    color: var(--text-dark);
     border: 1px solid var(--border);
     border-radius: 18px;
     padding: 2rem;
@@ -136,16 +138,23 @@ html, body {
 }
 
 .poetry-card h3{
-    display: flex;
     align-items: center;
+    color: var(--text-dark);
     gap: .6rem;
     margin-bottom: 1.4rem;
+}
 
 .poetry-card p{
-    display: flex;
     align-items: center;
+    color: var(--text-dark);
     gap: .6rem;
     margin-bottom: 1.2rem;
+    line-height: 1.7;
+}
+
+.poetry-card p:last-child {
+    margin-bottom: 0;
+}
 
 /* PUBLICATIONS */
 /* AWARDS */
