@@ -103,6 +103,9 @@ html, body {
   padding: 5rem;
 }
 
+.hero-text p {
+  line-height: 1.7;
+}
 
 /* IMAGES */
 
