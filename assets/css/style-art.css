@@ -292,8 +292,8 @@ section {
 .awards-collage {
     columns: 150px;
     column-gap: 1rem;
-    padding-right: 40px
-    padding-bottom: 40px
+    padding-right: 40px;
+    padding-bottom: 40px;
 }
 
 .awards-collage img {
