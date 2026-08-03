@@ -213,6 +213,13 @@ section > h2 {
 /* PUBLICATIONS */
 /* AWARDS */
 
+.awards {
+  display: grid;
+  grid-template-columns: 60% 40%;
+  min-height: 80vh;
+  width: 100%;
+}
+
 .award-list {
     line-height: 1.7;
     padding-left: 40px;
