@@ -180,7 +180,7 @@ section > h2 {
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 2rem;
   max-width: 1200px;
-  margin: 4rem auto;
+  margin: 1rem auto;
 }
 
 .poetry-card {
