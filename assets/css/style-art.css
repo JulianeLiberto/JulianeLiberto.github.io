@@ -38,6 +38,7 @@ section > h2 {
   font-size: 2rem;
   font-style: italic;
   font-weight: 500;
+  gap: 2rem;
 }
 
 
