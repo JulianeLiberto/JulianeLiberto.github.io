@@ -181,11 +181,10 @@ section {
 
 /* POETRY */
 .poetry-cards {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 2rem;
-  max-width: 1200px;
-  margin: 1rem auto;
+    columns: 350px;
+    column-gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .poetry-card {
@@ -194,7 +193,8 @@ section {
     border: 1px solid var(--border);
     border-radius: 18px;
     padding: 2rem;
-    transition: all 0.3s ease;
+    margin-bottom: 2rem;
+    break-inside: avoid;
 }
 
 .poetry-card h3{
