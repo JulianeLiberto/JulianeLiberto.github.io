@@ -235,7 +235,13 @@ section {
     transition: all 0.3s ease;
 }
 
-.publication-card:hover {
+.publication-card img {
+   width: 250px;
+   border-radius: 8px;
+   transition: transform 0.3s ease;
+}
+
+.publication-card img:hover {
     transform: translateY(-6px);
     box-shadow: 0 10px 30px rgba(0,0,0,.12);
 }
