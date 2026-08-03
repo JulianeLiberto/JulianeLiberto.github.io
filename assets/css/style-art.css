@@ -38,8 +38,8 @@ section > h2 {
   font-size: 2rem;
   font-style: italic;
   font-weight: 500;
-  margin-bottom: 2rem;
-  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-top: 2rem;
 }
 
 
@@ -181,6 +181,7 @@ section > h2 {
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 2rem;
   max-width: 1200px;
+  margin: 1rem auto;
 }
 
 .poetry-card {
