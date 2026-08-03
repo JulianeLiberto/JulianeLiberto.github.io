@@ -42,6 +42,10 @@ section > h2 {
   margin-top: 2rem;
 }
 
+section {
+    scroll-margin-top: 100px;
+}
+
 
 /* NAVIGATION */
 .navbar {
