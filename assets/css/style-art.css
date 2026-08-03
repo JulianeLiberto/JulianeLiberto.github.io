@@ -39,15 +39,6 @@ section > h2 {
   font-style: italic;
   font-weight: 500;
 }
-.hero-text h2 {
-  font-family: "Montserrat", sans-serif;
-  text-transform: uppercase;
-  letter-spacing: 0.25em;
-  font-size: 0.9rem;
-  font-weight: 300;
-}
-
-
 
 
 /* NAVIGATION */
@@ -118,10 +109,29 @@ section > h2 {
   padding: 5rem;
 }
 
+.hero-text h1 {
+  font-family: "Cormorant Garamond", serif;
+  text-transform: uppercase;
+  letter-spacing: 0.25em;
+  font-size: 0.9rem;
+  font-weight: 300;
+  margin-bottom: 1.2rem;
+}
+
+.hero-text h2 {
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.25em;
+  font-size: 0.9rem;
+  font-weight: 300;
+  margin-bottom: 1.2rem;
+}
+
 .hero-text p {
   margin-bottom: 1.2rem;
   line-height: 1.7;
 }
+
 
 /* IMAGES */
 
