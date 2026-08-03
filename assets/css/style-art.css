@@ -220,7 +220,7 @@ section {
 
 .publication-cards {
   display: grid;
-  grid-template-columns: repeat(auto-fit, 300px);
+  grid-template-columns: repeat(auto-fit, 500px);
   justify-content: center;
   gap: 2rem;
   max-width: 1200px;
@@ -249,6 +249,21 @@ section {
 .publication-card img:hover {
     transform: translateY(-6px);
     box-shadow: 0 10px 30px rgba(0,0,0,.12);
+}
+
+.publication-card h3{
+    align-items: center;
+    color: var(--text-dark);
+    gap: .6rem;
+    margin-bottom: 1.4rem;
+}
+
+.publication-card p{
+    align-items: center;
+    color: var(--text-dark);
+    gap: .6rem;
+    margin-bottom: 1.2rem;
+    line-height: 1.7;
 }
 
 /* AWARDS */
