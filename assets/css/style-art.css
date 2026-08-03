@@ -111,7 +111,6 @@ section > h2 {
 
 .hero-text h1 {
   font-family: "Cormorant Garamond", serif;
-  letter-spacing: 0.25em;
   font-size: 3rem;
   font-weight: 300;
   margin-bottom: 1.2rem;
@@ -223,6 +222,18 @@ section > h2 {
     margin-bottom: 1.5em;
 }
 
+.awards-collage {
+    columns: 3;
+    column-gap: 1rem;
+}
+
+.awards-collage img {
+    width: 100%;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    display: block;
+    break-inside: avoid;
+}
 
 
 /* FOOTER */
