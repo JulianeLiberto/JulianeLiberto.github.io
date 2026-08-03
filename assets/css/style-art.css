@@ -33,6 +33,21 @@ html, body {
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
+section > h2 {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 3rem;
+  font-style: italic;
+  font-weight: 500;
+}
+.hero-text h2 {
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.25em;
+  font-size: 0.9rem;
+  font-weight: 300;
+}
+
+
 
 
 /* NAVIGATION */
