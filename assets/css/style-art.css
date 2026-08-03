@@ -190,6 +190,15 @@ html, body {
 /* PUBLICATIONS */
 /* AWARDS */
 
+.award-list {
+    font-size: 18px;
+    line-height: 1.5;
+    padding-left: 40px;
+}
+
+.award-list li {
+    margin-bottom: 1.5em;
+}
 
 
 
