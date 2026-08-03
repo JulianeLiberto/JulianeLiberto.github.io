@@ -232,7 +232,7 @@ section > h2 {
 }
 
 .awards-collage {
-    columns: 250px;
+    columns: 150px;
     column-gap: 1rem;
 }
 
