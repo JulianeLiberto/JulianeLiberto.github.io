@@ -235,7 +235,8 @@ section > h2 {
 }
 
 .awards-collage img {
-    width: 30%;
+    width: 100%;
+    max-width: 200px;
     margin-bottom: 1rem;
     border-radius: 5px;
     display: block;
