@@ -263,8 +263,12 @@ section {
     align-items: center;
     color: var(--text);
     gap: .6rem;
-    margin-bottom: 1.2rem;
+    margin-bottom: 1rem;
     line-height: 1.7;
+}
+
+.publication-card p:last-child {
+    margin-bottom: 0;
 }
 
 /* AWARDS */
