@@ -137,6 +137,38 @@ section {
 }
 
 
+@media (max-width: 768px) {
+
+  .hero {
+    grid-template-columns: 1fr;
+    min-height: auto;
+  }
+
+  .hero-image {
+    height: 350px;
+  }
+
+  .hero-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .hero-text {
+    padding: 2rem;
+  }
+
+  .hero-text h1 {
+    font-size: 2.3rem;
+    text-align: center;
+  }
+
+  .hero-text h2 {
+    text-align: center;
+  }
+
+}
+
 /* IMAGES */
 
 .grid {
