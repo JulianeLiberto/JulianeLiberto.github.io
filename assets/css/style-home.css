@@ -169,61 +169,43 @@ section {
 /* ABOUT ME */
 .about-cards {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  grid-template-columns: repeat(auto-fit, 500px);
+  justify-content: center;
   gap: 2rem;
   max-width: 1200px;
-  margin: 4rem auto;
+  margin: 1rem auto;
 }
 
 .about-card {
-    background: var(--surface);
+    background: var(--background);
+    color: var(--text);
     border: 1px solid var(--border);
     border-radius: 18px;
     padding: 2rem;
-    transition: all 0.3s ease;
-}
-
-.about-card:hover {
-    transform: translateY(-6px);
-    box-shadow: 0 10px 30px rgba(0,0,0,.12);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .about-card h3{
-    display: flex;
     align-items: center;
+    color: var(--text);
     gap: .6rem;
-    margin-bottom: 1.2rem;
+    margin-top: 1.4rem;
+    margin-bottom: 1rem;
 }
 
-/* RESEARCH */
-.research-cards {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 2rem;
-  max-width: 1200px;
-  margin: 4rem auto;
-}
-
-.research-card {
-    background: var(--surface);
-    border: 1px solid var(--border);
-    border-radius: 18px;
-    padding: 2rem;
-    transition: all 0.3s ease;
-}
-
-.research-card:hover {
-    transform: translateY(-6px);
-    box-shadow: 0 10px 30px rgba(0,0,0,.12);
-}
-
-.reserch-card h3{
-    display: flex;
+.about-card p{
     align-items: center;
+    color: var(--text);
     gap: .6rem;
-    margin-bottom: 1.2rem;
+    margin-bottom: 1rem;
+    line-height: 1.7;
 }
 
+.about-card p:last-child {
+    margin-bottom: 0;
+}
 /* PUBLICATIONS */
 
 .publication-header {
