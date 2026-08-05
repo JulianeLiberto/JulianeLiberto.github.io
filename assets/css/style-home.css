@@ -186,9 +186,9 @@ section {
 }
 
 .about-card {
-    
+    background: #2277cc;
     color: var(--text);
-    
+    border: 1px solid #2277cc;
     border-radius: 18px;
     padding: .1rem;
     display: flex;
@@ -199,24 +199,10 @@ section {
 .about-card h3{
     align-items: center;
     color: var(--text);
+    border-bottom:1px solid var(--text);
     gap: .6rem;
     margin-top: 1.4rem;
     margin-bottom: 1rem;
-}
-
-.research-card {
-    border: 1px solid #2277cc;
-    background: #2277cc;
-}
-
-.skills-card {
-    border: 1px solid #118833;
-    background: #118833;
-}
-
-.hobbies-card {
-    border: 1px solid #9944ff;
-    background: #9944ff;
 }
 
 .about-card p{
