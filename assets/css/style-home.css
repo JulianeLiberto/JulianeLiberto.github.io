@@ -160,7 +160,7 @@ section {
 .education-item img {
     width: 28px;
     height: 28px;
-    margin-top: .25rem;
+    margin-top: .1rem;
 }
 
 .education-info {
@@ -171,11 +171,11 @@ section {
 }
 
 .education-info h4 {
-  margin-top: .25rem;
+  margin-top: .1rem;
 }
 
 .education-info p {
-  margin-bottom: .25rem;
+  margin-bottom: .1rem;
 }
 
 .education-info span {
