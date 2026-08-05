@@ -8,12 +8,12 @@
 
 :root { 
   /* Colors */
-    --background: #FDFBF7;
-    --text: #1f2937;
-    --text-light: #FDFBF7;
-    --text-dark: #1f2937;
-    --accent: #2563eb;
-    --border: #3a3a3b;
+    --background: #FDFBF7;      /* Soft White */
+    --text: #000000;            /* Black */
+    --text-light: #FDFBF7;      /* Soft White */
+    --text-dark: #1f2937;       /* Dark Blue */
+    --accent: #2563eb;          /* Royal Blue */
+    --border: #3a3a3b;          /* Dark Grey */
 
     /* Shadows */
     --shadow-sm: 0 2px 8px rgba(0,0,0,0.08);
@@ -28,7 +28,7 @@ html, body {
   margin: 0;
   padding: 0;
   background-color: #FDFBF7; 
-  color: #FDFBF7;            
+  color: #000000;            
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
