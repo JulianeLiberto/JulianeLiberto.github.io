@@ -299,6 +299,7 @@ section {
 .award-info {
     margin: 0;
     font-size: 1.1rem;
+    padding-right: 40px;
 }
 
 .award-info li{
