@@ -148,22 +148,35 @@ section {
   line-height: 1.7;
 }
 
-.hero-text h3 {
+.hero-bottom {
+  display:flex;
+  gap:3rem;
+  margin-top:2rem;
+}
+
+.hero-bottom h3 {
   font-family: "Roboto", sans-serif;
   margin-top: 2.5rem;
 }
 
+.education {
+  flex:2;
+}
+.contact {
+  flex:1;
+}
+
 .education-item {
-    display: flex;
-    align-items: flex-start;
-    gap: .5rem;
-    margin-bottom: .25rem;
+  display: flex;
+  align-items: flex-start;
+  gap: .5rem;
+  margin-bottom: .25rem;
 }
 
 .education-item img {
-    width: 20px;
-    height: 20px;
-    margin-top: .1rem;
+  width: 20px;
+  height: 20px;
+  margin-top: .1rem;
   align-content: center;
   align-items: center;
 }
@@ -185,6 +198,17 @@ section {
 
 .education-info span {
     color: #888888;
+}
+
+.socials {
+  display:flex;
+  gap:1rem;
+  margin-top:1rem;
+}
+
+.socials a img {
+  width: 20px;
+  height: 20px;
 }
 
 @media (max-width: 768px) {
