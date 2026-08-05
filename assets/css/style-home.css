@@ -212,7 +212,7 @@ section {
     border-radius: 999px;
     background: var(--accent);
     border: 1px solid var(--accent);
-    color: var(--text);
+    color: var(--text-light);
     gap: .6rem;
     margin-top: 1rem;
     line-height: 1.7;
@@ -223,6 +223,7 @@ section {
 }
 
 .about-card a {
+  color: var(--text-light);
   text-decoration: none; /* Removes underline from links */
   padding: 8px 12px;
   transition: all 0.3s ease; /* Smooth hover transition effect */
@@ -231,6 +232,10 @@ section {
 
 .about-card a:hover {
     text-decoration:underline;
+}
+
+.about-card a:visited {
+    color: var(--text-light);
 }
 
 
