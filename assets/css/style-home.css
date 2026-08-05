@@ -205,18 +205,18 @@ section {
 }
 
 .research-card {
-    border: 1px solid #4F8F8B;
-    background: #4F8F8B;
+    border: 1px solid #2277cc;
+    background: #2277cc;
 }
 
 .skills-card {
-    border: 1px solid #4C6FFF;
-    background: #4C6FFF;
+    border: 1px solid #118833;
+    background: #118833;
 }
 
 .hobbies-card {
-    border: 1px solid #A67C52;
-    background: #A67C52;
+    border: 1px solid #9944ff;
+    background: #9944ff;
 }
 
 .about-card p{
