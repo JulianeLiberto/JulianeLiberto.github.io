@@ -166,7 +166,8 @@ section {
 .education-info {
   font-size: .8rem;
   font-family: "Roboto", sans-serif;
-  margin-top: 3rem;
+  margin-top: .25rem;
+  margin-bottom: 3rem;
 }
 
 .education-info h4 {
