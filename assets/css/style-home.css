@@ -189,10 +189,10 @@ section {
 }
 
 .about-card {
-    background: var(--accent);
-    color: var(--text-light);
-    border: 1px solid #00509d;
-    border-radius: 18px;
+    background: var(--background);
+    color: var(--text);
+    border: 0px solid var(--background);
+    border-radius: 0px;
     padding: .1rem;
     display: flex;
     flex-direction: column;
@@ -201,8 +201,8 @@ section {
 
 .about-card h3{
     align-items: center;
-    color: var(--text-light);
-    border-bottom:1px solid var(--text-light);
+    color: var(--text);
+    border-bottom:1px solid var(--text);
     gap: .6rem;
     margin-top: 1.4rem;
     margin-bottom: 1rem;
@@ -210,7 +210,7 @@ section {
 
 .about-card p{
     align-items: center;
-    color: var(--text-light);
+    color: var(--text);
     gap: .6rem;
     margin-top: 1rem;
     line-height: 1.7;
