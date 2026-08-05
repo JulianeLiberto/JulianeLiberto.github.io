@@ -181,7 +181,7 @@ section {
     color: var(--text);
     border: 1px solid var(--border);
     border-radius: 18px;
-    padding: .6rem;
+    padding: .3rem;
     display: flex;
     flex-direction: column;
     align-items: center;
