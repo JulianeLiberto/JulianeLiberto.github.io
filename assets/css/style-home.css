@@ -121,7 +121,8 @@ section {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 5rem;
+  padding-top: 5rem;
+  padding-bottom: 2rem;
 }
 
 .hero-text h1 {
