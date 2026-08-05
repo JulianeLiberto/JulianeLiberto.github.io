@@ -397,23 +397,10 @@ section {
 
 .foot-links {
   display: flex;
-  list-style: none; /* Removes list bullet points */
+   gap:1rem;
 }
 
-.foot-links li {
-  margin-left: 20px; /* Spaces out links from one another */
-}
-
-.foot-links a {
-  color: #f2f2f2;
-  text-decoration: none; /* Removes underline from links */
-  font-size: 16px;
-  padding: 8px 12px;
-  transition: all 0.3s ease; /* Smooth hover transition effect */
-  border-radius: 4px;
-}
-
-.foot-links a:hover {
-  background-color: #555;
-  color: #fff;
+.foot-links a img {
+  width: 25px;
+  height: 25px;
 }
