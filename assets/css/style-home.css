@@ -169,7 +169,7 @@ section {
 /* ABOUT ME */
 .about-cards {
   display: grid;
-  grid-template-columns: repeat(auto-fit, 500px);
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   justify-content: center;
   gap: 2rem;
   max-width: 1200px;
