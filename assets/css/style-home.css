@@ -198,7 +198,7 @@ section {
 .about-card h3{
     align-items: center;
     color: var(--text-light);
-    border-bottom:1px solid var(--text);
+    border-bottom:1px solid var(--text-light);
     gap: .6rem;
     margin-top: 1.4rem;
     margin-bottom: 1rem;
