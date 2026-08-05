@@ -224,9 +224,9 @@ section {
 
 .about-card a {
   color: var(--text-light);
-  text-decoration: none; /* Removes underline from links */
+  text-decoration: none; 
   padding: 8px 12px;
-  transition: all 0.3s ease; /* Smooth hover transition effect */
+  transition: all 0.3s ease;
   border-radius: 4px;
 }
 
@@ -241,27 +241,25 @@ section {
 
 /* PUBLICATIONS */
 
-.publication-header {
-  display: flex;
-  list-style: none; /* Removes list bullet points */
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 40px;  
-}
-
 .publication-links {
+  align-content: center;
   display: flex;
-  list-style: none; /* Removes list bullet points */
+  list-style: none;
   gap: 20px
 }
 
 .publication-links a {
-  text-decoration: none; /* Removes underline from links */
+  text-decoration: none;
   font-size: 16px;
   padding: 8px 12px;
   transition: all 0.3s ease; /* Smooth hover transition effect */
   border-radius: 4px;
 }
+
+.publication-links a:hover {
+  text-decoration: underline;
+}
+
 
 .publication-list {
     font-size: 1.1rem;
