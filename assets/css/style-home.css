@@ -185,7 +185,7 @@ section {
 }
 
 .about-card {
-    background: #00509d;
+    background: var(--accent);
     color: var(--text-light);
     border: 1px solid #00509d;
     border-radius: 18px;
