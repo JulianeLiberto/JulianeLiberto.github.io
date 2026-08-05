@@ -264,9 +264,10 @@ section {
 }
 
 .publication-list {
-    font-size: 18px;
+    font-size: 1.1rem;
     line-height: 1.5;
     padding-left: 40px;
+    padding-right: 40px;
 }
 
 .publication-list li {
