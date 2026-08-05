@@ -23,12 +23,12 @@
     --radius: 18px;
 }
 
-/* Global Dark Background */
+/* Global Light Background */
 html, body {
   margin: 0;
   padding: 0;
   background-color: #FDFBF7; 
-  color: #000000;            
+  color: #333;            
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
