@@ -28,7 +28,7 @@ html, body {
   margin: 0;
   padding: 0;
   background-color: #FDFBF7; 
-  color: #e0e0e0;            
+  color: #FDFBF7;            
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
@@ -185,9 +185,9 @@ section {
 }
 
 .about-card {
-    background: #1f2937;
+    background: #00509d;
     color: var(--text-light);
-    border: 1px solid #1f2937;
+    border: 1px solid #00509d;
     border-radius: 18px;
     padding: .1rem;
     display: flex;
