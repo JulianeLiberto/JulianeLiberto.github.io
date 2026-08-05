@@ -165,10 +165,10 @@ section {
 
 .education-info {
   font-size: .8rem;
+  font-family: "Roboto", sans-serif;
 }
 
 .education-info h4 {
-  font-family: "Lato", sans-serif;
   margin-top: .25rem;
 }
 
@@ -178,6 +178,7 @@ section {
 
 .education-info span {
     color: #888888;
+    margin-bottom: .3rem;
 }
 
 @media (max-width: 768px) {
