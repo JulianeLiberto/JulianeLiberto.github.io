@@ -145,6 +145,36 @@ section {
   line-height: 1.7;
 }
 
+.hero-text h3 {
+  font-family: "Lato", sans-serif;
+}
+
+.education-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.education-item img {
+    width: 28px;
+    height: 28px;
+    margin-top: .25rem;
+}
+
+.education-info {
+  
+}
+.education-info h4 {
+  
+}
+.education-info p {
+  
+}
+.education-info span {
+    font-size: .9rem;
+    color: var(--text-light);
+}
 
 @media (max-width: 768px) {
 
