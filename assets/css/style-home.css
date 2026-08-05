@@ -166,14 +166,15 @@ section {
   
 }
 .education-info h4 {
-  
+  font-family: "Lato", sans-serif;
+  margin-top: .25rem;
 }
 .education-info p {
-  
+  margin-bottom: .25rem;
 }
 .education-info span {
     font-size: .9rem;
-    color: var(--text-light);
+    color: #888888;
 }
 
 @media (max-width: 768px) {
