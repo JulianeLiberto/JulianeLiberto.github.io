@@ -33,14 +33,17 @@ html, body {
 }
 
 section > h2 {
-  font-family: "Cormorant Garamond", serif;
-  font-size: 2rem;
-  font-style: uppercase;
-  font-weight: 500;
-  margin-bottom: 1rem;
-  margin-top: 2rem;
-  border-bottom:1px solid var(--text);
+    background: var(--accent);
+    color: white;
+    padding: 1rem 2rem;
+    margin: 0 0 2rem 0;
+    font-family: "Cormorant Garamond", serif;
+    font-size: 2rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: .08em;
 }
+
 
 section {
     scroll-margin-top: 80px;
