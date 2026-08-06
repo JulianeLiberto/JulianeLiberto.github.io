@@ -311,10 +311,12 @@ section {
 
 /* RESEARCH */
 .research-cards {
-  padding: 40px;
+  padding-right: 40px;
+  padding-left: 40px;
+  padding-bottom: 40px;
 }
 .research-card {
-  
+  margin-top: 1.2rem;
 }
 .research-card h2 {
   font-family: "Montserrat", sans-serif;
