@@ -3,7 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 :root { 
@@ -29,7 +29,7 @@ html, body {
   padding: 0;
   background-color: #FDFBF7; 
   color: #333;            
-  font-family: 'Helvetica Neue', Arial, sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 section > h2 {
