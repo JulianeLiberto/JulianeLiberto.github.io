@@ -306,11 +306,9 @@ section {
 
 
 /* PUBLICATIONS */
-
 .publication-links {
-  align-content: center;
-  align-items: right;
   display: flex;
+  padding-left: 40px;
   list-style: none;
   gap: 20px;
   margin-bottom: 1.5rem;
@@ -320,8 +318,6 @@ section {
   width: 30px;
   height: 30px;
 }
-
-
 
 .publication-list {
     font-size: 1.1rem;
