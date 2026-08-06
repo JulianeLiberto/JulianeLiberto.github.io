@@ -309,6 +309,24 @@ section {
     color: var(--text-light);
 }
 
+/* RESEARCH */
+.research-cards {
+  
+}
+.research-card {
+  
+}
+.research-card h2 {
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.25em;
+  font-size: 0.9rem;
+  font-weight: 300;
+}
+.research-card h3 {
+  
+}
+
 
 /* PUBLICATIONS */
 .publication-links {
