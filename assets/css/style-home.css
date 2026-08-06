@@ -265,6 +265,11 @@ section {
 }
 
 .about-card h3{
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.25em;
+    font-size: 0.9rem;
+    font-weight: 300;
     align-items: center;
     color: var(--text);
     border-bottom:1px solid var(--text);
