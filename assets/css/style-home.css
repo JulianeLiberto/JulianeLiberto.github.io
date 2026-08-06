@@ -268,7 +268,7 @@ section {
     font-family: "Montserrat", sans-serif;
     text-transform: uppercase;
     letter-spacing: 0.25em;
-    font-size: 0.9rem;
+    font-size: 1.2rem;
     font-weight: 300;
     align-items: center;
     color: var(--text);
@@ -311,7 +311,7 @@ section {
 
 /* RESEARCH */
 .research-cards {
-  
+  padding: 40px;
 }
 .research-card {
   
@@ -320,7 +320,7 @@ section {
   font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
   letter-spacing: 0.25em;
-  font-size: 0.9rem;
+  font-size: 1.2rem;
   font-weight: 300;
 }
 .research-card h3 {
