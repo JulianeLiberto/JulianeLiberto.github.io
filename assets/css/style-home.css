@@ -352,7 +352,8 @@ section {
 }
 
 .publication-list li {
-    margin-bottom: 1.5rem;
+  margin-bottom: 1.5rem;
+  padding-left: 40px;
 }
 
 .publication-list a {
