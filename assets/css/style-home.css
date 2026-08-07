@@ -323,6 +323,7 @@ section {
   max-height: 100%;
   height: 600px;
   justify-content: center;
+  margin-bottom: 1rem;
 }
 .research-image img:hover {
     transform: translateY(-6px);
