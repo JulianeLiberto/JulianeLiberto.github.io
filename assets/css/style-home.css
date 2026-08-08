@@ -272,12 +272,13 @@ section {
 
 
 .about-cvlink {
+    display: inline-block;
+    width: fit-content;
     padding: 0.5rem 0.9rem;
     border-radius: 999px;
     background: var(--accent);
     border: 1px solid var(--accent);
     color: var(--text-light);
-    gap: .6rem;
     margin-top: 1rem;
     line-height: 1.7;
 }
