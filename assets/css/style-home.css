@@ -261,8 +261,8 @@ section {
 }
 .about-bottom-info h3 {
   font-family: "Roboto", sans-serif;
-  margin-top: 1.9rem;
   margin-bottom: 0.15rem;
+  border-bottom:1px solid var(--text);
 }
 .about-bottom-info p {
   font-family: "Roboto", sans-serif;
