@@ -259,12 +259,12 @@ section {
   gap:3rem;
   margin-top:2rem;
 }
-.about-bottom h3 {
+.about-bottom-info h3 {
   font-family: "Roboto", sans-serif;
   margin-top: 1.9rem;
   margin-bottom: 0.15rem;
 }
-.about-bottom p {
+.about-bottom-info p {
   font-size: .8rem;
   font-family: "Roboto", sans-serif;
   margin-top: .25rem;
