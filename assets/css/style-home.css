@@ -258,6 +258,8 @@ section {
   display:flex;
   gap:3rem;
   margin-top:2rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
 }
 .about-bottom-info h3 {
   font-family: "Roboto", sans-serif;
