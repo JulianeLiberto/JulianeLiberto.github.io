@@ -367,7 +367,7 @@ section {
 
 .leadership-content {
     display: grid;
-    grid-template-columns: 1fr 400px;
+    grid-template-columns: 1fr 600px;
     gap: 3rem;
     align-items: center;
 }
@@ -390,21 +390,22 @@ section {
 }
 
 .position span {
-  font-size: .8rem;
+  font-size: .9rem;
   color: #888888;
 }
 
 .leadership-img {
   display: flex;
   margin-bottom: 2rem;
-  gap: 1.5rem;
+  gap: 1rem;
   align-items: center;
   justify-content: center;
 }
 
 .leadership-img img {
-  width: auto;
-  height: 250px;
+  width: 290px;
+  max-width: 100%;
+  height: auto;
 }
 
 .leadership-image img:hover {
