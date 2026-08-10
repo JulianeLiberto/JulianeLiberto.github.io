@@ -467,7 +467,7 @@ section {
   color: var(--accent);
   font-family: "Cormorant Garamond", serif;
   font-size: 1rem;
-  padding-top: 5rem;
+  padding: 5rem;
 }
 
 .foot-quote em {
