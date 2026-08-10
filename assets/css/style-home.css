@@ -317,7 +317,7 @@ section {
 .about-quote {
   color: var(--accent);
   font-family: "Cormorant Garamond", serif;
-  font-size: .8rem;
+  font-size: .95rem;
   padding-top: 2rem;
 }
 
