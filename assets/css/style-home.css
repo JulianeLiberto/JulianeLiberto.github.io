@@ -255,10 +255,13 @@ section {
   line-height: 1.7;
 }
 
-.about li {
+.about ul {
   margin-bottom: 1.2rem;
-  line-height: 1.7;
   padding-left: 1.2rem
+}
+
+.about li {
+  line-height: 1.7;
 }
 
 .about-bottom {
