@@ -314,18 +314,6 @@ section {
     color: var(--text-light);
 }
 
-.about-quote {
-  color: var(--accent);
-  font-family: "Cormorant Garamond", serif;
-  font-size: .95rem;
-  padding-top: 2rem;
-}
-
-.about-quote em {
-    font-size: inherit;
-    font-family: inherit;
-}
-
 /* RESEARCH */
 .research {
   display: grid;
@@ -474,6 +462,20 @@ section {
 
 
 /* FOOTER */
+
+.foot-quote {
+  color: var(--accent);
+  font-family: "Cormorant Garamond", serif;
+  font-size: 1rem;
+  padding-top: 5rem;
+}
+
+.foot-quote em {
+    font-size: inherit;
+    font-family: inherit;
+}
+
+
 .footbar {
   display: flex;
   justify-content: space-between; /* Pushes logo left and links right */
