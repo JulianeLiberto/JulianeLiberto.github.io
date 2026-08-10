@@ -23,7 +23,6 @@
     --radius: 18px;
 }
 
-/* Global Light Background */
 html, body {
   margin: 0;
   padding: 0;
@@ -43,7 +42,6 @@ section > h2 {
     text-transform: uppercase;
     letter-spacing: .08em;
 }
-
 
 section {
     scroll-margin-top: 50px;
@@ -94,8 +92,6 @@ section {
   background-color: #048CAA; /* Distinct color for active/current page */
   color: white;
 }
-
-
 
 /* HERO */
 .hero {
@@ -245,7 +241,6 @@ section {
 }
 
 /* ABOUT ME */
-
 .about {
   padding: 2rem;
 }
