@@ -314,6 +314,12 @@ section {
     color: var(--text-light);
 }
 
+.about-quote {
+  color: var(--accent);
+  font-family: "Cormorant Garamond", serif;
+  font-size: .8rem;
+}
+
 /* RESEARCH */
 .research {
   display: grid;
