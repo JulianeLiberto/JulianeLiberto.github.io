@@ -364,6 +364,14 @@ section {
 }
 
 /* LEADERSHIP */
+
+.leadership-content {
+    display: grid;
+    grid-template-columns: 1fr 400px;
+    gap: 3rem;
+    align-items: center;
+}
+
 .leadership-card {
   margin-bottom: 2rem;
   padding-left: 2rem;
@@ -389,7 +397,7 @@ section {
 .leadership-img {
   display: flex;
   margin-bottom: 2rem;
-  gap: 3rem;
+  gap: 1.5rem;
   align-items: center;
   justify-content: center;
 }
