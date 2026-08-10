@@ -397,7 +397,7 @@ section {
 .leadership-img {
   display: flex;
   margin-bottom: 2rem;
-  margin-left: 2rem;
+  margin-right: 2rem;
   gap: 1rem;
   align-items: center;
   justify-content: center;
