@@ -321,6 +321,11 @@ section {
   padding-top: 2rem;
 }
 
+.about-quote em {
+    font-size: inherit;
+    font-family: inherit;
+}
+
 /* RESEARCH */
 .research {
   display: grid;
