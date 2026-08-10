@@ -468,6 +468,7 @@ section {
   font-family: "Cormorant Garamond", serif;
   font-size: 1rem;
   padding: 5rem;
+  border-left: 1px solid var(--text);
 }
 
 .foot-quote em {
