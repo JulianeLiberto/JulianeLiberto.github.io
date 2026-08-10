@@ -389,7 +389,10 @@ section {
 .leadership-img {
   display: flex;
   margin-bottom: 2rem;
+  gap: 3rem;
+  align-items: center;
 }
+
 .leadership-img img {
   width: auto;
   height: 400px;
