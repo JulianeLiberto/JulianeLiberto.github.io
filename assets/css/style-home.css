@@ -303,6 +303,7 @@ section {
 
 .about-cvlink {
     display: inline-block;
+    justify-content: center;
     width: fit-content;
     padding: 0.5rem 0.9rem;
     border-radius: 999px;
