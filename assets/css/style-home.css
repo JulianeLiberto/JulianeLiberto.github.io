@@ -246,19 +246,34 @@ section {
   padding-right: 2rem;
   padding-top: 0rem;
   padding-bottom: 2rem;
+  
 }
 
-.about p {
+.about-top {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: 1fr 600px;
+}
+.about-img {
+  margin-right: 2rem;
+}
+.about-img img {
+  width: 290px;
+  max-width: 100%;
+  height: auto;
+}
+
+.about-text p {
   margin-bottom: 1.2rem;
   line-height: 1.7;
 }
 
-.about ul {
+.about-text ul {
   margin-bottom: 1.2rem;
   padding-left: 1.2rem
 }
 
-.about li {
+.about-text li {
   line-height: 1.7;
 }
 
