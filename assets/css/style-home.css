@@ -318,6 +318,7 @@ section {
   color: var(--accent);
   font-family: "Cormorant Garamond", serif;
   font-size: .8rem;
+  padding-top: 2rem;
 }
 
 /* RESEARCH */
