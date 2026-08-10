@@ -380,21 +380,20 @@ section {
 .position {
   margin-bottom: 1.2rem;
 }
-.position-header {
-  
-}
-.position h4 {
-  
-}
+
 .position span {
   font-size: .8rem;
   color: #888888;
 }
-.position-info {}
 
-
-
-
+.leadership-img {
+  display: flex;
+  margin-bottom: 2rem;
+}
+.leadership-img img {
+  width: auto;
+  height: 400px;
+}
 
 
 /* PUBLICATIONS */
