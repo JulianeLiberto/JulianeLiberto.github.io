@@ -269,17 +269,22 @@ section {
   padding-left: 5rem;
   padding-right: 5rem;
 }
+
+.about-bottom-info {
+  flex: 1;
+}
+
 .about-bottom-info h3 {
   font-family: "Roboto", sans-serif;
   margin-bottom: 0.15rem;
   border-bottom:1px solid var(--text);
 }
+
 .about-bottom-info p {
   font-family: "Roboto", sans-serif;
   margin-top: .25rem;
   margin-bottom: .1rem;
 }
-
 
 .about-cvlink {
     display: inline-block;
