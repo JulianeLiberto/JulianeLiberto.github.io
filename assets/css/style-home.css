@@ -391,6 +391,7 @@ section {
   margin-bottom: 2rem;
   gap: 3rem;
   align-items: center;
+  justify-content: center;
 }
 
 .leadership-img img {
