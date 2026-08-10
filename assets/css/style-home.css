@@ -242,7 +242,9 @@ section {
 
 /* ABOUT ME */
 .about {
-  padding: 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 0rem;
 }
 
 .about p {
