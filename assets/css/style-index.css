@@ -79,7 +79,7 @@ section {
     list-style: none;  /* Don't add list bullet points */
 }
 .nav-links li {
-    margin: 0 0 2rem 0;   /* Spaces links apart from eachother */
+    margin: 0 0 0 2rem;   /* Spaces links apart from eachother */
 }
 .nav-links a {
    color: var(--text-light);    /* Text color */
