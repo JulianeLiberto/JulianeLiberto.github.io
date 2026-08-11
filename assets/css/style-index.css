@@ -99,20 +99,40 @@ section {
 
 /* HERO */
 .hero {
-    display: grid;
-    grid-template-columns: 45% 55%;
+    display: grid;                     /* Use grid for layouts */
+    grid-template-columns: 45% 55%;    /* Two columns, column 1 uses 45% and column 2 55% of screen  */
 }
-.hero-image {}
-.hero-image img {}
-.hero-text {}
-.hero-text h1 {}
-.hero-text h2 {}
-.hero-text p {}
+.hero-image {
+    width: 100%;    /* Fill allocated parent width (i.e. grid of 45%) */
+    height: 100%;   /* Fill allocated parent height (i.e. grid of 45%) */
+}
+.hero-image img {
+    width: 100%;          /* Fill allocated parent width (i.e. .hero-image) */
+    height: 100%;         /* Fill allocated parent height (i.e. .hero-image) */
+    display: block;       /* Make image not and in-line image */
+    object-fit: cover;    /* Fill entire box, even if crop needed */
+}
+.hero-text {
+    padding: var(--space-xl) var(--space-xl) var(--space-md);    /* Inside Spacing: T R/L B */
+}
+.hero-text h1 {
+    margin-bottom: 1.2rem;
+}
+.hero-text h2 {
+    margin-bottom: 1.2rem;
+}
+.hero-text p {
+    margin-bottom: 1.2rem;    /* Line spacing between paragraphs */
+    line-height: 1.7;         /* line spacing within paragraphs */
+}
 .hero-bottom {
     display: flex;
     gap: 3rem;
+    margin-top: 2rem;
 }
-.hero-bottom h3 {}
+.hero-bottom h3 {
+    margin-top: 1.8rem;
+}
 .education {
     flex: 2;    /* Takes up 2 of 3 flex spaces */
 }
