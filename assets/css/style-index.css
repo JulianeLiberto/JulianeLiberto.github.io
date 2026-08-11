@@ -69,18 +69,15 @@ section {
     top: 0;                         /* Nav bar at the very top of the page */
     z-index: 1000;                  /* Nav bar on top of all other elements */
 }
-
 .logo {
     color: var(--text-light); /* Text color */
     font-weight: 700;         /* Bold - see Cheat Sheet */
     font-size: 1rem;
 }
-
 .nav-links {
     display: flex;     /* Arranges child elements in a line */
     list-style: none;  /* Don't add list bullet points */
 }
-
 .nav-links li {
     margin: 0 0 2rem 0;   /* Spaces links apart from eachother */
 }
@@ -96,12 +93,51 @@ section {
    color: var(--text-light);    /* Text color */
    background-color: #555;      /* Color in clickable area */
 }
-
 .nav-links a:visited {
    color: var(--text-light);    /* Text color after link is clicked */
 }
 
 /* HERO */
+.hero {
+    display: grid;
+    grid-template-columns: 45% 55%;
+}
+.hero-image {}
+.hero-image img {}
+.hero-text {}
+.hero-text h1 {}
+.hero-text h2 {}
+.hero-text p {}
+.hero-bottom {
+    display: flex;
+    gap: 3rem;
+}
+.hero-bottom h3 {}
+.education {
+    flex: 2;    /* Takes up 2 of 3 flex spaces */
+}
+.contact {
+    flex: 1;    /* Takes up 1 of 3 flex spaces */
+}
+.education-item {
+    display: flex;
+    gap: 1rem;
+    
+}
+.education-item img {}
+.educatio-info {}
+.educatio-info h4 {}
+.educatio-info p {}
+.socials {
+    display: flex;
+    gap: 1rem;
+}
+.socials img {}
+
+
+
+
+
 /* ABOUT ME */
 /* MY RESEARCH */
 /* LEADERSHIP */
