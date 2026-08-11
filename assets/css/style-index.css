@@ -76,10 +76,8 @@ section {
 }
 .nav-links {
     display: flex;     /* Arranges child elements in a line */
+    gap: 2rem;         /* Spaces links apart from eachother */
     list-style: none;  /* Don't add list bullet points */
-}
-.nav-links li {
-    margin: 0 0 0 2rem;   /* Spaces links apart from eachother */
 }
 .nav-links a {
    color: var(--text-light);    /* Text color */
