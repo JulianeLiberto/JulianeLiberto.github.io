@@ -1,1 +1,143 @@
+/* =========================
+   CSS SELECTOR CHEAT SHEET
 
+   .class       → selects a class
+   #id          → selects an ID
+   element      → selects an HTML element
+   :pseudo      → selects a special state/condition
+   ::pseudo     → creates/selects a pseudo-element
+   >            → direct child
+   space        → descendant
+========================= */
+
+/* =========================
+CSS FONT-WEIGHT CHEAT SHEET
+100       → Thin
+200       → Extra Light
+300       → Light
+400       → Normal
+500       → Medium
+600       → Semi Bold
+700       → Bold 
+800       → Extra Bold
+900       → Very Bold
+========================= */
+
+/* =========================
+CSS SIZE CHEAT SHEET
+.25rem       → 4px
+.5rem        → 8px
+.75rem       → 12px
+1rem         → 16px - standard
+1.5rem       → 24px
+2rem         → 32px
+3rem         → 48px
+5rem         → 80px
+========================= */
+
+/* GLOBAL */
+
+:root {
+    /* Colors */
+    --background: #FDFBF7;
+    --text: #333333;
+    --text-muted: #888888;
+    --text-light: #FDFBF7;
+    --accent: #00296B;
+    --border: #3A3A3B;
+
+    /* Spacing */
+    --space-xs: 0.5rem;
+    --space-sm: 1rem;
+    --space-md: 2rem;
+    --space-lg: 3rem;
+    --space-xl: 5rem;
+
+    /* Layout */
+    --content-width: 1200px;
+    --side-padding: 2rem;
+
+    /* Effects */
+    --shadow-sm: 0 2px 8px rgba(0,0,0,0.08);     /* Shadow: Horizontal Offset, Vertical Offset, Blur radius, (color, opacity) */
+    --shadow-lg: 0 10px 30px rgba(0,0,0,0.12);
+
+    --radius: 10px;                              /* corner roundess */
+}
+
+html,
+body {
+    margin: 0;                           /* Outside spacing - set to 0 to remove unwanted browser auto spacing */
+    padding: 0;                          /* Inside spacing - set to 0 to remove unwanted browser auto spacing */
+    background-color: var(--background);
+    color: var(--text);
+    font-family: "Roboto", sans-serif;   /* Main body text */
+}
+
+.container {
+    width: min(100% - 4rem, 1200px); /* Establishes a universal content width */
+    margin-inline: auto;
+}
+
+section > h2 {                                 /* Consistent section headers */
+    background: var(--accent);                 /* Color behind text */
+    color: var(--text-light);                  /* Text color */
+    padding: var(--space-sm) var(--space-md);  /* Inside element spacing: top/bottom left/right */
+    margin: 0 0 var(--space-md);               /* Outside element spacing: top left/right bottom */
+    
+    font-family: "Cormorant Garamond", serif;
+    font-size: 2rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.08rem;
+}
+
+section {
+    scroll-margin-top: 50px;
+}
+
+/* NAVIGATION */
+.navbar {
+    display: flex;                  /* Arranges child elements in a line */
+    justify-content: space-between; /* Pushes child 1 left and child 2 right */
+    align-items: center;            /* Centers items vertically */
+    background-color: #333;         /* Dark background */
+    padding: 0.75rem 2rem;          /* Inside spacing: top/bottom left/right */
+    position: sticky;               /* Keeps bar fixed at the top while scrolling */
+    top: 0;                         /* Nav bar at the very top of the page */
+    z-index: 1000;                  /* Nav bar on top of all other elements */
+}
+
+.logo {
+    color: var(--text-light); /* Text color */
+    font-weight: 700;         /* Bold - see Cheat Sheet */
+    font-size: 1rem;
+}
+
+.nav-links {
+    display: flex;     /* Arranges child elements in a line */
+    list-style: none;  /* Don't add list bullet points */
+}
+
+.nav-links li {
+    
+}
+.nav-links a {}
+.nav-links a:hover {}
+
+/* HERO */
+/* ABOUT ME */
+/* MY RESEARCH */
+/* LEADERSHIP */
+/* MENTORSHIP & TEACHING */
+/* MY PUBLICATIONS */
+/* MY AWARDS */
+/* FOOTER */
+/* MOBILE STYLING */
+
+@media (max-width: 768px) {
+    section > h2 {
+        padding: 0.7rem 1rem;
+        margin-bottom: 1.5rem;
+        font-size: 1.5rem;
+    }
+}
