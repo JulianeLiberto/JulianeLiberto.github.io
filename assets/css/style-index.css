@@ -83,7 +83,7 @@ section {
    color: var(--text-light);    /* Text color */
    text-decoration: none;       /* Remove link underline */
    font-size: 1rem;               
-   padding: 0.5rem, 0.75rem;    /* Sets clickable area around text  */
+   padding: 0.5rem 0.75rem;    /* Sets clickable area around text  */
    transition: all 0.3s ease;   /* Animate style change over seconds smoothly */
    border-radius: 4px;          /* Slightly round corners of clickable area */
 }
