@@ -151,6 +151,7 @@ section {
 }
 .education-info p {
     margin: 0;
+    line-height: normal;
 }
 .education-info span {
     margin: 0;
