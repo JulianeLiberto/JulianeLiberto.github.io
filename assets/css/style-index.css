@@ -124,8 +124,8 @@ section {
     line-height: 1.7;         /* line spacing within paragraphs */
 }
 .hero-bottom {
-    display: flex;
-    gap: 3rem;
+    display: flex;    /* Use flex for aligning things horizontally or vertically */
+    gap: 3rem;        /* space between flex items */
     margin-top: 2rem;
 }
 .hero-bottom h3 {
@@ -138,17 +138,23 @@ section {
     flex: 1;    /* Takes up 1 of 3 flex spaces */
 }
 .education-item {
-    display: flex;
-    gap: 1rem;
-    
+    display: flex;    /* Use flex for aligning things horizontally or vertically */
+    gap: 1rem;        /* space between flex items */ 
 }
 .education-item img {
-    width: 20px;
-    height: 20px;
+    width: 25px;
+    height: 25px;
 }
 .educatio-info {}
-.educatio-info h4 {}
-.educatio-info p {}
+.educatio-info h4 {
+    margin: 0;
+}
+.educatio-info p {
+    margin: 0;
+}
+.educatio-info span {
+    margin: 0;
+}
 .socials {
     display: flex;
     gap: 1rem;
