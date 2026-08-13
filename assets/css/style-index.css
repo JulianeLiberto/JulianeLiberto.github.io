@@ -78,6 +78,8 @@ section {
     display: flex;     /* Arranges child elements in a line */
     gap: 2rem;         /* Spaces links apart from eachother */
     list-style: none;  /* Don't add list bullet points */
+    margin: 0;         /* Outside spacing - set to 0 to remove unwanted browser auto spacing */
+    padding: 0;        /* Inside spacing - set to 0 to remove unwanted browser auto spacing */
 }
 .nav-links a {
    color: var(--text-light);    /* Text color */
