@@ -142,7 +142,10 @@ section {
     gap: 1rem;
     
 }
-.education-item img {}
+.education-item img {
+    width: 20px;
+    height: 20px;
+}
 .educatio-info {}
 .educatio-info h4 {}
 .educatio-info p {}
@@ -150,7 +153,10 @@ section {
     display: flex;
     gap: 1rem;
 }
-.socials img {}
+.socials a img {
+     width: 25px;
+     height: 25px;
+}
 
 
 
