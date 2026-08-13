@@ -237,6 +237,16 @@ section {
   .hero-text h2 {
     text-align: center;
   }
+  .hero-bottom {
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 2rem;
+  }
+
+  .education,
+  .contact {
+    flex: none;
+  }
 
 }
 
