@@ -204,74 +204,23 @@ section {
         margin-bottom: 1.5rem;
         font-size: 1.5rem;
     }
-   /* 🟢 SHOW THE HAMBURGER BUTTON ON MOBILE */
-  .hamburger {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 30px;
-    height: 21px;
-    cursor: pointer;
-    z-index: 10;
+   .navbar {
+        flex-direction: column;
+        gap: 0.5rem;
+        padding: 0.75rem 1rem;
   }
 
-  /* Style the 3 spans to look like horizontal bars */
-  .hamburger span {
-    display: block;
-    height: 3px;
-    width: 100%;
-    background-color: white;
-    border-radius: 3px;
-    transition: all 0.3s ease-in-out; /* Smooth transition for animations */
+      .nav-links {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 0.25rem 0.5rem;
+        padding: 0;
+        margin: 0;
   }
 
-  /* 🔴 HIDE THE ACTUAL CHECKBOX INPUT */
-  .menu-checkbox {
-    display: none; 
-  }
-
-  /* RE-STYLE THE NAV LINKS TO BE A MOBILE DROPDOWN/DRAWER */
-  .nav-links {
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    top: 60px; /* Adjust based on navbar height */
-    left: -100%; /* Hidden off-screen by default */
-    width: 100%;
-    background-color: #444;
-    text-align: center;
-    gap: 0;
-    transition: 0.3s ease-in-out;
-  }
-
-  .nav-links li {
-    padding: 20px 0;
-    border-bottom: 1px solid #555;
-  }
-
-  /* ==========================================================================
-     THE PURE CSS TOGGLE LOGIC (When Checkbox is Checked)
-     ========================================================================== */
-  
-  /* 1. Slide the menu in from the left when checked */
-  .menu-checkbox:checked ~ .nav-links {
-    left: 0;
-  }
-
-  /* 2. Animate the Hamburger Bars into an "X" shape */
-  /* Top bar rotates down */
-  .menu-checkbox:checked + .hamburger span:nth-child(1) {
-    transform: translateY(9px) rotate(45deg);
-  }
-
-  /* Middle bar fades away */
-  .menu-checkbox:checked + .hamburger span:nth-child(2) {
-    opacity: 0;
-  }
-
-  /* Bottom bar rotates up */
-  .menu-checkbox:checked + .hamburger span:nth-child(3) {
-    transform: translateY(-9px) rotate(-45deg);
+      .nav-links a {
+        font-size: 0.9rem;
+        padding: 0.4rem 0.5rem;
   }
 
       .hero {
