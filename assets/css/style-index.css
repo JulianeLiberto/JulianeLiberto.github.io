@@ -150,6 +150,7 @@ section {
 .education-item {
     display: flex;    /* Use flex for aligning things horizontally or vertically */
     gap: 0.5rem;        /* space between flex items */ 
+    margin-bottom: 1rem; 
 }
 .education-item img {
     width: 25px;
@@ -166,7 +167,7 @@ section {
     line-height: normal;
 }
 .education-info span {
-    margin-bottom: 1rem;
+    margin: 0;
     color: #888888;
 }
 .socials {
