@@ -24,7 +24,7 @@
     --shadow-sm: 0 2px 8px rgba(0,0,0,0.08);     /* Shadow: Horizontal Offset, Vertical Offset, Blur radius, (color, opacity) */
     --shadow-lg: 0 10px 30px rgba(0,0,0,0.12);
 
-    --radius: 10px;                              /* corner roundess */
+    --radius: 10px;                              /* Corner roundess */
 }
 
 html,
@@ -55,7 +55,7 @@ section > h2 {                                 /* Consistent section headers */
 }
 
 section {
-    scroll-margin-top: 50px;
+    scroll-margin-top: 50px;        /* spacing so section headers appear under instead of behind the navbar */
 }
 
 /* NAVIGATION */
@@ -64,14 +64,14 @@ section {
     justify-content: space-between; /* Pushes child 1 left and child 2 right */
     align-items: center;            /* Centers items vertically */
     background-color: #333;         /* Dark Grey background */
-    padding: 0.3rem 2rem;          /* Inside spacing: top/bottom left/right */
+    padding: 0.3rem 2rem;           /* Inside spacing: top/bottom left/right */
     position: sticky;               /* Keeps bar fixed at the top while scrolling */
     top: 0;                         /* Nav bar at the very top of the page */
     z-index: 1000;                  /* Nav bar on top of all other elements */
 }
 .logo {
-    color: var(--text-light); /* Text color */
-    font-weight: 700;         /* Bold - see Cheat Sheet */
+    color: var(--text-light);     /* Text color */
+    font-weight: 700;             /* Bold - see Cheat Sheet */
     font-size: 1rem;
 }
 .nav-links {
@@ -85,7 +85,7 @@ section {
    color: var(--text-light);    /* Text color */
    text-decoration: none;       /* Remove link underline */
    font-size: 1rem;               
-   padding: 0.5rem 0.75rem;    /* Sets clickable area around text  */
+   padding: 0.5rem 0.75rem;     /* Sets clickable area around text  */
    transition: all 0.3s ease;   /* Animate style change over seconds smoothly */
    border-radius: 4px;          /* Slightly round corners of clickable area */
 }
@@ -117,9 +117,17 @@ section {
 }
 .hero-text h1 {
     margin-bottom: 1.2rem;
+    font-family: "Cormorant Garamond", serif;
+    font-size: 3rem;
+    font-weight: 300;
 }
 .hero-text h2 {
     margin-bottom: 1.2rem;
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.25em;
+    font-size: 0.9rem;
+    font-weight: 300;
 }
 .hero-text p {
     margin-bottom: 1.2rem;    /* Line spacing between paragraphs */
@@ -147,7 +155,9 @@ section {
     width: 25px;
     height: 25px;
 }
-.education-info {}
+.education-info {
+    font-size: .9rem;
+}
 .education-info h4 {
     margin: 0;
 }
@@ -156,7 +166,8 @@ section {
     line-height: normal;
 }
 .education-info span {
-    margin: 0;
+    margin-bottom: .25rem;
+    color: #888888;
 }
 .socials {
     display: flex;
