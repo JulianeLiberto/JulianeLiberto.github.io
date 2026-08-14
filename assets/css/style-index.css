@@ -113,7 +113,7 @@ section {
     object-fit: cover;    /* Fill entire box, even if crop needed */
 }
 .hero-text {
-    padding: var(--space-xl) var(--space-xl) var(--space-md);    /* Inside Spacing: T R/L B */
+    padding: var(--space-lg) var(--space-xl) var(--space-md);    /* Inside Spacing: T R/L B */
 }
 .hero-text h1 {
     margin-bottom: 1.2rem;
