@@ -149,7 +149,7 @@ section {
 }
 .education-item {
     display: flex;    /* Use flex for aligning things horizontally or vertically */
-    gap: 1rem;        /* space between flex items */ 
+    gap: 0.5rem;        /* space between flex items */ 
 }
 .education-item img {
     width: 25px;
