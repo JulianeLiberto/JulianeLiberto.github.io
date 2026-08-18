@@ -247,7 +247,7 @@ section {
     }
       .hero-bottom {
         flex-direction: column;
-        gap: 2rem;
+        gap: 0.5rem;
         margin-top: 2rem;
     }
     .hero-bottom h3 {
