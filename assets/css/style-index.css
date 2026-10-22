@@ -196,9 +196,6 @@ section {
   gap: 2rem;
   grid-template-columns: 1fr 600px;
 }
-.about-img {                    /* Define image margins */
-  margin-right: 2rem;
-}
 .about-img img {                /* Define image size */
   width: 550px;
   max-width: 100%;
@@ -222,7 +219,6 @@ section {
   padding-left: 5rem;
   padding-right: 5rem;
 }
-
 .about-bottom-info {               /* Both columns share the available width equally */
   flex: 1;
 }
@@ -236,6 +232,31 @@ section {
   margin-top: .25rem;
   margin-bottom: .1rem;
   line-height: 1.7;
+}
+.about-cvlink {
+    display: inline-block;
+    justify-content: center;
+    width: fit-content;
+    padding: 0.5rem 0.9rem;
+    border-radius: 999px;
+    background: var(--accent);
+    border: 1px solid var(--accent);
+    color: var(--text-light);
+    margin-top: 1rem;
+    line-height: 1.7;
+}
+.about-cvlink a {
+  color: var(--text-light);
+  text-decoration: none; 
+  padding: 8px 12px;
+  transition: all 0.3s ease;
+  border-radius: 4px;
+}
+.about-cvlink a:hover {
+    text-decoration:underline;
+}
+.about-cvlink a:visited {
+    color: var(--text-light);
 }
 
 
