@@ -270,6 +270,54 @@ section {
 
 /* MY RESEARCH */
 /* LEADERSHIP */
+.leadership-content {
+    display: grid;
+    grid-template-columns: 1fr 600px;
+    gap: 3rem;
+    align-items: center;
+}
+.leadership-card {
+  margin-bottom: 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+.leadership-card h3 {
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.25em;
+  font-size: 1rem;
+  font-weight: 300;
+  margin-bottom: 1.2rem;
+}
+.position {
+  margin-bottom: 1.2rem;
+}
+.position span {
+  font-size: .9rem;
+  color: #888888;
+}
+.leadership-img {
+  display: flex;
+  margin-bottom: 2rem;
+  margin-right: 2rem;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+}
+.leadership-img img {
+  width: 290px;
+  max-width: 100%;
+  height: auto;
+}
+.leadership-img img:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 10px 30px rgba(0,0,0,.12);
+}
+
+
+
+
+
 /* MENTORSHIP & TEACHING */
 /* MY PUBLICATIONS */
 /* MY AWARDS */
@@ -353,6 +401,17 @@ section {
         gap: 0.5rem;
         padding-left: 0;
         padding-right: 0;
+    }
+    .leadership-content {
+        grid-template-columns: 1fr;
+        gap: 0.5rem
+        min-height: auto;
+    }
+    .leadership-img {
+        flex-direction: column;
+        gap: 0.5rem;
+        padding-left: 0;
+        padding-right: 0; 
     }
 
 }
