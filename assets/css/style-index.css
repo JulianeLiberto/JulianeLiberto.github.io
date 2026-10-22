@@ -37,7 +37,7 @@ body {
 }
 
 .container {
-    width: min(100% - 4rem, 3200px); /* Establishes a universal content width */
+    width: min(100% - 1rem, 3200px); /* Establishes a universal content width */
     margin-inline: auto;
 }
 
