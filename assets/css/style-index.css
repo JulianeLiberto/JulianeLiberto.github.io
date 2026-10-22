@@ -185,12 +185,6 @@ section {
 
 
 /* ABOUT ME */
-.about {                        /* Margins for whole about me section */
-  padding-left: 2rem;
-  padding-right: 2rem;
-  padding-top: 0rem;
-  padding-bottom: 2rem;  
-}
 .about-top {                    /* Make top section 2 columns (one for text, one for photos) */
   display: grid;
   gap: 2rem;
