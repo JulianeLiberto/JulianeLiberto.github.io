@@ -195,6 +195,7 @@ section {
   display: grid;
   gap: 2rem;
   grid-template-columns: 1fr 600px;
+  align-items: start;
 }
 .about-img img {                /* Define image size */
   width: 599px;
