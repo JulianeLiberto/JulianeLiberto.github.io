@@ -318,4 +318,12 @@ section {
         flex: none;
     }
 
+    .about {
+        grid-template-columns: 1fr;
+        min-height: auto;
+    }
+    .about-bottom{
+        flex: none;
+    }
+
 }
