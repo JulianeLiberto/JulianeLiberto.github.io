@@ -343,12 +343,16 @@ section {
         flex: none;
     }
 
-    .about {
+    .about-top {
         grid-template-columns: 1fr;
+        gap: 0.5rem
         min-height: auto;
     }
-    .about-bottom{
-        flex: none;
+    .about-bottom {
+        flex-direction: column;
+        gap: 0.5rem;
+        padding-left: 0;
+        padding-right: 0;
     }
 
 }
