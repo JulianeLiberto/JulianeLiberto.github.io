@@ -197,7 +197,7 @@ section {
   grid-template-columns: 1fr 600px;
 }
 .about-img img {                /* Define image size */
-  width: 550px;
+  width: 599px;
   max-width: 100%;
   height: auto;
 }
